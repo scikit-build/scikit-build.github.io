@@ -12,6 +12,28 @@
 
   {{- with .Content }}
   <div class="post-content md-content">{{ . }}</div>
+  {{- end }} {{- with .Params.meet_url }}
+  <div class="recurring-meeting">
+    <div class="recurring-meeting-row">
+      <span class="recurring-meeting-label">When</span>
+      <span>
+        Third Friday of every month at
+        <a href="https://howlonghowmany.com/my-time/eastern-time/12-pm">12:00 PM ET</a>
+        — <span class="meeting-next"></span> your time
+      </span>
+    </div>
+    <div class="recurring-meeting-row">
+      <span class="recurring-meeting-label">Where</span>
+      <a href="{{ . }}">Google Meet</a>
+    </div>
+    {{- with $.Params.minutes_url }}
+    <div class="recurring-meeting-row">
+      <span class="recurring-meeting-label">Notes</span>
+      <a href="{{ . }}">Past meeting minutes</a>
+    </div>
+    {{- end }}
+  </div>
+  <script src="/js/community-meeting.js" defer></script>
   {{- end }} {{- with .Params.schedule }}
   <div class="schedule">
     {{- range . }}

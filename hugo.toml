@@ -2,6 +2,7 @@ baseURL = 'http://localhost'
 languageCode = 'en-us'
 title = 'scikit-build'
 theme = 'github.com/adityatelange/hugo-PaperMod'
+buildFuture = true
 
 [params]
   description = "Build tools for Python extensions using CMake"

@@ -1,3 +1,47 @@
+/* ── Recurring event info block ──────────────────────────────────────────── */
+.recurring-meeting {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  margin: 1.5rem 0;
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--entry);
+}
+
+.recurring-meeting-row {
+  display: flex;
+  gap: 1rem;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+
+.recurring-meeting-label {
+  flex: 0 0 3.5rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--secondary);
+}
+
+.recurring-badge {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.1rem 0.45rem;
+  border-radius: 3px;
+  border: 1px solid var(--border);
+  color: var(--secondary);
+}
+
+.recurring-next {
+  font-size: 0.85rem;
+  color: var(--secondary);
+}
+
 /* ── Schedule / Timeline ─────────────────────────────────────────────────── */
 .schedule {
   display: flex;

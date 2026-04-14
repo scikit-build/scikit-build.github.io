@@ -15,6 +15,14 @@
   <div class="entry-content"><p>{{ . }}</p></div>
   {{- end }} {{- if not .Date.IsZero }}
   <footer class="entry-footer">{{ .Date.Format "January 2, 2006" }}</footer>
+  {{- else if .Params.recurring }}
+  <footer class="entry-footer">
+    <span class="recurring-badge">Monthly</span>
+    <span class="recurring-next">Next: <span class="meeting-next"></span></span>
+  </footer>
+  {{- end }}
+  {{- if .Params.recurring }}
+  <script src="/js/community-meeting.js" defer></script>
   {{- end }}
   <a
     class="entry-link"

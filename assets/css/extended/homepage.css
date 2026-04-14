@@ -6,11 +6,17 @@
   margin-bottom: 3rem;
 }
 
-.home-hero-title {
-  font-size: 2.8rem;
-  font-weight: 800;
-  margin: 0 0 0.75rem;
-  letter-spacing: -0.02em;
+.home-hero-logo {
+  max-width: 420px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto 1.5rem;
+  display: block;
+}
+
+/* Invert the logo in dark mode so it stays visible */
+.dark .home-hero-logo {
+  filter: invert(1);
 }
 
 .home-hero-subtitle {
@@ -37,23 +43,20 @@
   font-size: 0.95rem;
   font-weight: 600;
   text-decoration: none;
-  transition: opacity 0.15s;
+  color: var(--primary);
+  background: transparent;
+  border: 2px solid var(--border);
+  transition: border-color 0.15s, background 0.15s;
 }
 
 .home-btn:hover {
-  opacity: 0.85;
+  border-color: var(--primary);
+  background: var(--entry);
 }
 
-.home-btn-primary {
-  background: var(--theme);
-  color: var(--primary);
-  border: 2px solid var(--primary);
-}
-
+.home-btn-primary,
 .home-btn-secondary {
-  background: transparent;
-  color: var(--primary);
-  border: 2px solid var(--border);
+  /* intentionally empty — both buttons share the same style */
 }
 
 /* ── Projects section ────────────────────────────────────────────────────── */
@@ -94,11 +97,6 @@
   transform: translateY(-2px);
 }
 
-.project-card-primary {
-  border-color: var(--primary);
-  border-width: 2px;
-}
-
 .project-card-header {
   display: flex;
   align-items: center;
@@ -115,13 +113,13 @@
 
 .project-card-badge {
   font-size: 0.65rem;
-  font-weight: 700;
+  font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   padding: 0.15rem 0.45rem;
   border-radius: 4px;
-  background: var(--primary);
-  color: var(--theme);
+  border: 1px solid var(--border);
+  color: var(--secondary);
   white-space: nowrap;
 }
 

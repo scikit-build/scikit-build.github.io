@@ -1,6 +1,12 @@
 {{- define "main" }}
 <div class="home-hero">
-  <h1 class="home-hero-title">scikit-build</h1>
+  <img
+    class="home-hero-logo"
+    src="/images/scikit_build_logo.svg"
+    alt="scikit-build"
+    width="420"
+    height="95"
+  />
   <p class="home-hero-subtitle">
     An ecosystem of tools for building Python packages with compiled extensions —
     especially those powered by <a href="https://cmake.org/">CMake</a>.
@@ -13,7 +19,10 @@
       GitHub
     </a>
     <a class="home-btn home-btn-secondary" href="https://scikit-build-core.readthedocs.io/">
-      Documentation
+      Documentation (core)
+    </a>
+    <a class="home-btn home-btn-secondary" href="https://scikit-build.readthedocs.io/">
+      Documentation (classic)
     </a>
   </div>
 </div>
@@ -22,11 +31,11 @@
   <h2 class="projects-section-title">Projects</h2>
   <div class="projects-grid">
     {{- range hugo.Data.projects }}
-    <a class="project-card{{ if .primary }} project-card-primary{{ end }}" href="{{ .github }}" target="_blank" rel="noopener noreferrer">
+    <a class="project-card" href="{{ .github }}" target="_blank" rel="noopener noreferrer">
       <div class="project-card-header">
         <h3 class="project-card-name">{{ .name }}</h3>
-        {{- if .primary }}
-        <span class="project-card-badge">Core</span>
+        {{- range .labels }}
+        <span class="project-card-badge">{{ . }}</span>
         {{- end }}
       </div>
       <p class="project-card-description">{{ .description }}</p>

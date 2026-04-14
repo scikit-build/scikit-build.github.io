@@ -5,15 +5,16 @@
   github: https://github.com/scikit-build/scikit-build-core
   docs: https://scikit-build-core.readthedocs.io/
   pypi: https://pypi.org/project/scikit-build-core/
-  primary: true
+  labels: ["build backend"]
 
-- name: scikit-build
+- name: scikit-build (classic)
   description: >-
     The original improved build system generator for CPython C, C++, Cython,
     and Fortran extensions. A bridge between setuptools and CMake.
   github: https://github.com/scikit-build/scikit-build
   docs: https://scikit-build.readthedocs.io/
   pypi: https://pypi.org/project/scikit-build/
+  labels: ["build backend"]
 
 - name: cmake-python-distributions
   description: >-
@@ -21,6 +22,7 @@
     making CMake easily installable via pip on all major platforms.
   github: https://github.com/scikit-build/cmake-python-distributions
   pypi: https://pypi.org/project/cmake/
+  labels: ["binary"]
 
 - name: ninja-python-distributions
   description: >-
@@ -28,6 +30,7 @@
     making the Ninja build system easily installable via pip.
   github: https://github.com/scikit-build/ninja-python-distributions
   pypi: https://pypi.org/project/ninja/
+  labels: ["binary"]
 
 - name: cython-cmake
   description: >-
@@ -35,6 +38,7 @@
     integrate Cython into CMake-based build systems.
   github: https://github.com/scikit-build/cython-cmake
   pypi: https://pypi.org/project/cython-cmake/
+  labels: ["CMake"]
 
 - name: f2py-cmake
   description: >-
@@ -42,3 +46,17 @@
     Fortran code to be easily wrapped and called from Python.
   github: https://github.com/scikit-build/f2py-cmake
   pypi: https://pypi.org/project/f2py-cmake/
+  labels: ["CMake"]
+
+- name: moderncmakedomain
+  description: >-
+    A Sphinx domain for Modern CMake, providing rich cross-referencing and
+    documentation support for CMake commands, variables, and modules.
+  github: https://github.com/scikit-build/moderncmakedomain
+  pypi: https://pypi.org/project/moderncmakedomain/
+
+- name: scikit-build-sample-projects
+  description: >-
+    Sample projects demonstrating how to use scikit-build and scikit-build-core
+    to build Python extensions with CMake across a range of use cases.
+  github: https://github.com/scikit-build/scikit-build-sample-projects

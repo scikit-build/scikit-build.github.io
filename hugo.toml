@@ -10,6 +10,18 @@ theme = 'github.com/adityatelange/hugo-PaperMod'
   ShowShareButtons = false
   ShowPostNavLinks = false
   hideMeta = true
+  defaultTheme = "auto"
+
+  [params.assets]
+    favicon = "/favicon.png"
+    favicon16x16 = "/favicon.png"
+    favicon32x32 = "/favicon.png"
+    apple_touch_icon = "/favicon.png"
+
+  [params.label]
+    text = ""
+    icon = "images/scikit_build_mark.svg"
+    iconHeight = 36
 
   [params.homeInfoParams]
     Title = "scikit-build"

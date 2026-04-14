@@ -5,17 +5,14 @@
     <h1 class="post-title">{{ .Title }}</h1>
     {{- with .Description }}
     <p class="post-description">{{ . }}</p>
-    {{- end }}
-    {{- if not .Date.IsZero }}
+    {{- end }} {{- if not .Date.IsZero }}
     <div class="post-meta">{{ .Date.Format "January 2, 2006" }}</div>
     {{- end }}
   </header>
 
   {{- with .Content }}
   <div class="post-content md-content">{{ . }}</div>
-  {{- end }}
-
-  {{- with .Params.schedule }}
+  {{- end }} {{- with .Params.schedule }}
   <div class="schedule">
     {{- range . }}
     <section class="schedule-day">
@@ -27,7 +24,8 @@
           <div class="slot-body">
             <div class="slot-header">
               <span class="slot-title">{{ .title }}</span>
-              {{- with .duration }}<span class="slot-duration">{{ . }}</span>{{- end }}
+              {{- with .duration }}<span class="slot-duration">{{ . }}</span>{{-
+              end }}
             </div>
             {{- with .sessions }}
             <ul class="slot-sessions">
@@ -35,15 +33,20 @@
               <li class="session-item">
                 <div class="session-header">
                   <span class="session-title">{{ .title }}</span>
-                  {{- with .duration }}<span class="session-duration">{{ . }}</span>{{- end }}
-                  {{- with .format }}<span class="session-format">{{ . }}</span>{{- end }}
+                  {{- with .duration }}<span class="session-duration"
+                    >{{ . }}</span
+                  >{{- end }} {{- with .format }}<span class="session-format"
+                    >{{ . }}</span
+                  >{{- end }}
                 </div>
                 {{- with .subsessions }}
                 <ul class="subsession-list">
                   {{- range . }}
                   <li class="subsession-item">
                     <span class="session-title">{{ .title }}</span>
-                    {{- with .duration }}<span class="session-duration">{{ . }}</span>{{- end }}
+                    {{- with .duration }}<span class="session-duration"
+                      >{{ . }}</span
+                    >{{- end }}
                   </li>
                   {{- end }}
                 </ul>

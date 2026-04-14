@@ -13,11 +13,13 @@
   </header>
   {{- with .Description }}
   <div class="entry-content"><p>{{ . }}</p></div>
-  {{- end }}
-  {{- if not .Date.IsZero }}
+  {{- end }} {{- if not .Date.IsZero }}
   <footer class="entry-footer">{{ .Date.Format "January 2, 2006" }}</footer>
   {{- end }}
-  <a class="entry-link" aria-label="{{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+  <a
+    class="entry-link"
+    aria-label="{{ .Title | plainify }}"
+    href="{{ .Permalink }}"
+  ></a>
 </article>
-{{- end }}
-{{- end }}
+{{- end }} {{- end }}

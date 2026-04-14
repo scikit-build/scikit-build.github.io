@@ -46,7 +46,9 @@
   color: var(--primary);
   background: transparent;
   border: 2px solid var(--border);
-  transition: border-color 0.15s, background 0.15s;
+  transition:
+    border-color 0.15s,
+    background 0.15s;
 }
 
 .home-btn:hover {
@@ -88,7 +90,10 @@
   text-decoration: none;
   color: var(--primary);
   background: var(--entry);
-  transition: border-color 0.15s, box-shadow 0.15s, transform 0.1s;
+  transition:
+    border-color 0.15s,
+    box-shadow 0.15s,
+    transform 0.1s;
 }
 
 .project-card:hover {

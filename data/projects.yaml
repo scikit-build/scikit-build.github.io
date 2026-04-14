@@ -1,0 +1,44 @@
+- name: scikit-build-core
+  description: >-
+    The next-generation Python CMake adaptor. Provides a PEP 517 build backend
+    and a rich plugin API for building Python packages backed by CMake.
+  github: https://github.com/scikit-build/scikit-build-core
+  docs: https://scikit-build-core.readthedocs.io/
+  pypi: https://pypi.org/project/scikit-build-core/
+  primary: true
+
+- name: scikit-build
+  description: >-
+    The original improved build system generator for CPython C, C++, Cython,
+    and Fortran extensions. A bridge between setuptools and CMake.
+  github: https://github.com/scikit-build/scikit-build
+  docs: https://scikit-build.readthedocs.io/
+  pypi: https://pypi.org/project/scikit-build/
+
+- name: cmake-python-distributions
+  description: >-
+    Provides infrastructure to build and distribute CMake as a Python wheel,
+    making CMake easily installable via pip on all major platforms.
+  github: https://github.com/scikit-build/cmake-python-distributions
+  pypi: https://pypi.org/project/cmake/
+
+- name: ninja-python-distributions
+  description: >-
+    Provides infrastructure to build and distribute Ninja as a Python wheel,
+    making the Ninja build system easily installable via pip.
+  github: https://github.com/scikit-build/ninja-python-distributions
+  pypi: https://pypi.org/project/ninja/
+
+- name: cython-cmake
+  description: >-
+    CMake helpers for building Cython extension modules, making it easier to
+    integrate Cython into CMake-based build systems.
+  github: https://github.com/scikit-build/cython-cmake
+  pypi: https://pypi.org/project/cython-cmake/
+
+- name: f2py-cmake
+  description: >-
+    CMake helpers for building Fortran extension modules via F2Py, enabling
+    Fortran code to be easily wrapped and called from Python.
+  github: https://github.com/scikit-build/f2py-cmake
+  pypi: https://pypi.org/project/f2py-cmake/

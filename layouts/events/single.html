@@ -1,0 +1,64 @@
+{{- define "main" }}
+<article class="post-single">
+  <header class="post-header">
+    {{- partial "breadcrumbs.html" . }}
+    <h1 class="post-title">{{ .Title }}</h1>
+    {{- with .Description }}
+    <p class="post-description">{{ . }}</p>
+    {{- end }}
+    {{- if not .Date.IsZero }}
+    <div class="post-meta">{{ .Date.Format "January 2, 2006" }}</div>
+    {{- end }}
+  </header>
+
+  {{- with .Content }}
+  <div class="post-content md-content">{{ . }}</div>
+  {{- end }}
+
+  {{- with .Params.schedule }}
+  <div class="schedule">
+    {{- range . }}
+    <section class="schedule-day">
+      <h2 class="schedule-day-title">{{ .day }}</h2>
+      <div class="schedule-slots">
+        {{- range .slots }}
+        <div class="schedule-slot">
+          <div class="slot-time">{{ .time }}</div>
+          <div class="slot-body">
+            <div class="slot-header">
+              <span class="slot-title">{{ .title }}</span>
+              {{- with .duration }}<span class="slot-duration">{{ . }}</span>{{- end }}
+            </div>
+            {{- with .sessions }}
+            <ul class="slot-sessions">
+              {{- range . }}
+              <li class="session-item">
+                <div class="session-header">
+                  <span class="session-title">{{ .title }}</span>
+                  {{- with .duration }}<span class="session-duration">{{ . }}</span>{{- end }}
+                  {{- with .format }}<span class="session-format">{{ . }}</span>{{- end }}
+                </div>
+                {{- with .subsessions }}
+                <ul class="subsession-list">
+                  {{- range . }}
+                  <li class="subsession-item">
+                    <span class="session-title">{{ .title }}</span>
+                    {{- with .duration }}<span class="session-duration">{{ . }}</span>{{- end }}
+                  </li>
+                  {{- end }}
+                </ul>
+                {{- end }}
+              </li>
+              {{- end }}
+            </ul>
+            {{- end }}
+          </div>
+        </div>
+        {{- end }}
+      </div>
+    </section>
+    {{- end }}
+  </div>
+  {{- end }}
+</article>
+{{- end }}

@@ -1,4 +1,4 @@
-baseURL = 'https://scikit-build.org/'
+baseURL = 'http://localhost'
 languageCode = 'en-us'
 title = 'scikit-build'
 theme = 'github.com/adityatelange/hugo-PaperMod'
@@ -36,6 +36,11 @@ Whether you need the next-generation CMake adaptor, pre-built CMake/Ninja wheels
     name = "Projects"
     url = "/#projects"
     weight = 10
+  [[menu.main]]
+    identifier = "events"
+    name = "Events"
+    url = "/events/"
+    weight = 15
   [[menu.main]]
     identifier = "github"
     name = "GitHub"

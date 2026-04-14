@@ -1,0 +1,23 @@
+{{- define "main" }}
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+  {{- with .Description }}
+  <div class="post-description">{{ . }}</div>
+  {{- end }}
+</header>
+
+{{- range .Pages }}
+<article class="post-entry">
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">{{ .Title }}</h2>
+  </header>
+  {{- with .Description }}
+  <div class="entry-content"><p>{{ . }}</p></div>
+  {{- end }}
+  {{- if not .Date.IsZero }}
+  <footer class="entry-footer">{{ .Date.Format "January 2, 2006" }}</footer>
+  {{- end }}
+  <a class="entry-link" aria-label="{{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+</article>
+{{- end }}
+{{- end }}

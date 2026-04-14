@@ -1,0 +1,125 @@
+/* ── Schedule / Timeline ─────────────────────────────────────────────────── */
+.schedule {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-top: 2rem;
+}
+
+.schedule-day-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin: 0 0 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--border);
+}
+
+.schedule-slots {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ── Individual time slot ────────────────────────────────────────────────── */
+.schedule-slot {
+  display: flex;
+  gap: 1.25rem;
+  padding: 0.6rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.schedule-slot:last-child {
+  border-bottom: none;
+}
+
+.slot-time {
+  flex: 0 0 3rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  color: var(--secondary);
+  padding-top: 0.15rem;
+  text-align: right;
+}
+
+.slot-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.slot-header {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.slot-title {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.slot-duration {
+  font-size: 0.8rem;
+  color: var(--secondary);
+}
+
+/* ── Sub-sessions ────────────────────────────────────────────────────────── */
+.slot-sessions {
+  list-style: none;
+  padding: 0;
+  margin: 0.4rem 0 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.session-item {
+  padding-left: 0.85rem;
+  border-left: 2px solid var(--border);
+}
+
+.session-header {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.session-title {
+  font-size: 0.875rem;
+}
+
+.session-duration {
+  font-size: 0.775rem;
+  color: var(--secondary);
+}
+
+.session-format {
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.1rem 0.35rem;
+  border-radius: 3px;
+  border: 1px solid var(--border);
+  color: var(--secondary);
+  white-space: nowrap;
+}
+
+/* ── Nested sub-sessions (e.g. Binding tools) ────────────────────────────── */
+.subsession-list {
+  list-style: none;
+  padding: 0.3rem 0 0 0.85rem;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  border-left: 2px solid var(--border);
+}
+
+.subsession-item {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}

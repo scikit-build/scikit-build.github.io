@@ -5,12 +5,8 @@ theme = 'github.com/adityatelange/hugo-PaperMod'
 
 [params]
   description = "Build tools for Python extensions using CMake"
-  author = "scikit-build"
-  ShowReadingTime = false
-  ShowShareButtons = false
-  ShowPostNavLinks = false
-  hideMeta = true
   defaultTheme = "auto"
+  hideMeta = true
 
   [params.assets]
     favicon = "/favicon.png"
@@ -22,13 +18,6 @@ theme = 'github.com/adityatelange/hugo-PaperMod'
     text = ""
     icon = "images/scikit_build_mark.svg"
     iconHeight = 36
-
-  [params.homeInfoParams]
-    Title = "scikit-build"
-    Content = """
-scikit-build is an ecosystem of tools for building Python packages that use compiled extensions — especially those built with CMake.
-Whether you need the next-generation CMake adaptor, pre-built CMake/Ninja wheels, or helpers for Cython and Fortran, you'll find it here.
-"""
 
 [menu]
   [[menu.main]]

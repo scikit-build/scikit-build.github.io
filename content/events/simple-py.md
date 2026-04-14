@@ -1,7 +1,7 @@
 ---
 title: "SIMPLE-Py"
 description: "Scientific Installation & Modern Packaging for Language Extensions in Python"
-date: 2026-04-14
+date: 2026-07-13
 schedule:
   - day: "Day 1"
     slots:

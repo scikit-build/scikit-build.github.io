@@ -1,6 +1,7 @@
 ---
 title: "SIMPLE-Py"
 description: "Scientific Installation & Modern Packaging for Language Extensions in Python"
+banner: "/images/simplepy.svg"
 date: 2026-07-13
 schedule:
   - day: "Day 1"

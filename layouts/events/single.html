@@ -1,5 +1,11 @@
 {{- define "main" }}
 <article class="post-single">
+  {{- with .Params.banner }}
+  <figure class="event-banner">
+    <img src="{{ . }}" alt="Event banner" loading="lazy" />
+  </figure>
+  {{- end }}
+
   <header class="post-header">
     {{- partial "breadcrumbs.html" . }}
     <h1 class="post-title">{{ .Title }}</h1>

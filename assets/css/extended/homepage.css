@@ -62,7 +62,6 @@
 }
 
 /* ── Section titles ──────────────────────────────────────────────────────── */
-.events-section-title,
 .projects-section-title {
   font-size: 1.3rem;
   font-weight: 700;
@@ -77,134 +76,88 @@
 }
 
 .events-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  justify-content: center;
 }
 
-/* ── Event card ──────────────────────────────────────────────────────────── */
+/* ── Event pill button ───────────────────────────────────────────────────── */
 .event-card {
-  display: flex;
-  align-items: stretch;
-  border: 1px solid var(--border);
-  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.9rem;
+  border-radius: 999px;
   text-decoration: none;
   color: var(--primary);
-  background: var(--entry);
-  overflow: hidden;
+  border: 1px solid var(--border);
   transition:
-    border-color 0.2s,
-    box-shadow 0.2s,
-    transform 0.15s;
-  position: relative;
+    border-color 0.15s,
+    background 0.15s,
+    color 0.15s;
 }
 
 .event-card:hover {
   border-color: var(--primary);
-  box-shadow: 0 3px 16px rgba(0, 0, 0, 0.1);
-  transform: translateY(-2px);
+  background: var(--entry);
 }
 
-.dark .event-card:hover {
-  box-shadow: 0 3px 16px rgba(255, 255, 255, 0.06);
+.event-card:hover .event-card-date {
+  color: var(--primary);
 }
 
-/* ── Accent strip on the left ────────────────────────────────────────────── */
-.event-card-accent {
-  flex: 0 0 5px;
-  align-self: stretch;
+/* Color ring for recurring / upcoming */
+.event-card::before {
+  content: "";
+  flex-shrink: 0;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  align-self: center;
 }
 
-.event-card-accent.recurring {
-  background: linear-gradient(180deg, #3b82f6, #6366f1);
+.event-card.recurring::before {
+  background: linear-gradient(135deg, #3b82f6, #6366f1);
 }
 
-.event-card-accent.upcoming {
-  background: linear-gradient(180deg, #10b981, #22d3ee);
+.event-card.upcoming::before {
+  background: linear-gradient(135deg, #10b981, #22d3ee);
 }
 
-.dark .event-card-accent.recurring {
-  background: linear-gradient(180deg, #60a5fa, #818cf8);
+.dark .event-card.recurring::before {
+  background: linear-gradient(135deg, #60a5fa, #818cf8);
 }
 
-.dark .event-card-accent.upcoming {
-  background: linear-gradient(180deg, #34d399, #67e8f9);
+.dark .event-card.upcoming::before {
+  background: linear-gradient(135deg, #34d399, #67e8f9);
 }
 
-/* ── Card body ───────────────────────────────────────────────────────────── */
-.event-card-body {
+.event-card-text {
   display: flex;
   flex-direction: column;
-  padding: 1rem 1.25rem;
-  flex: 1;
+  gap: 0.05rem;
   min-width: 0;
-}
-
-.event-card-header {
-  display: flex;
-  align-items: center;
-  gap: 0.6rem;
-  margin-bottom: 0.35rem;
-}
-
-.event-card-header .event-card-badge {
-  margin-left: auto;
 }
 
 .event-card-title {
-  font-size: 1.05rem;
-  font-weight: 700;
+  font-size: 0.875rem;
+  font-weight: 600;
   margin: 0;
-  line-height: 1.3;
-  flex: 1;
-  min-width: 0;
-}
-
-.event-card-date {
-  font-size: 0.8rem;
-  color: var(--secondary);
-  margin-top: 0.4rem;
-  font-weight: 500;
-}
-
-/* ── Event badges ────────────────────────────────────────────────────────── */
-.event-card-badge {
-  font-size: 0.65rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  padding: 0.15rem 0.5rem;
-  border-radius: 4px;
+  line-height: 1.25;
   white-space: nowrap;
 }
 
-.event-card-badge.recurring {
-  background: rgba(59, 130, 246, 0.1);
-  color: #2563eb;
-  border: 1px solid rgba(59, 130, 246, 0.25);
-}
-
-.dark .event-card-badge.recurring {
-  background: rgba(96, 165, 250, 0.12);
-  color: #93c5fd;
-  border-color: rgba(96, 165, 250, 0.3);
-}
-
-.event-card-badge.upcoming {
-  background: rgba(16, 185, 129, 0.1);
-  color: #059669;
-  border: 1px solid rgba(16, 185, 129, 0.25);
-}
-
-.dark .event-card-badge.upcoming {
-  background: rgba(52, 211, 153, 0.12);
-  color: #6ee7b7;
-  border-color: rgba(52, 211, 153, 0.3);
+.event-card-date {
+  font-size: 0.75rem;
+  color: var(--secondary);
+  font-weight: 500;
+  line-height: 1.25;
 }
 
 /* ── View all link ───────────────────────────────────────────────────────── */
 .events-view-all {
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   font-weight: 600;
   color: var(--secondary);
   text-decoration: none;
@@ -212,7 +165,7 @@
     color 0.15s,
     transform 0.15s;
   display: inline-block;
-  margin-top: 1rem;
+  margin-top: 0.6rem;
 }
 
 .events-view-all:hover {

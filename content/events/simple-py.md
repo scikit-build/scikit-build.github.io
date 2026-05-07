@@ -121,6 +121,12 @@ schedule:
 
 This event takes place July 13-14 alongside [SciPy
 2026](https://www.scipy2026.scipy.org) at the University of Minnesota,
-Minneapolis, MN. A signup is coming soon.
+Minneapolis, MN.
+
+We can provide airfare and lodging during the workshop days (and a day surrounding them, so July 12-15) for participants. If you'd like to go to SciPy too, we can't cover the SciPy portion of the stay, but airfare is covered and we can pay for the hotel block days during our workshop. Priority will be given to applicants associated with US educational institutions, but feel free to apply if you are not, we can try to get you in if we have space.
+
+This will take place during the SciPy tutorials. You can still go to up to one tutorial session and attend the rest of this workshop; let us know if you need to do that below. We will be sharing some of the same setup as the SciPy tutorials.
+
+A signup is coming soon.
 
 The schedule below is subject to change.

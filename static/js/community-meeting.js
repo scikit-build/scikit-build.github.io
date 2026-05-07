@@ -30,7 +30,9 @@
 
   function newYorkTimeToDate(year, month, day, hour, minute) {
     const localAsUTC = Date.UTC(year, month, day, hour, minute, 0);
-    return new Date(localAsUTC - nyOffsetMinutes(new Date(localAsUTC)) * 60_000);
+    return new Date(
+      localAsUTC - nyOffsetMinutes(new Date(localAsUTC)) * 60_000,
+    );
   }
 
   function nextThirdFridayET(hour, minute) {
@@ -39,7 +41,7 @@
       nyDateFormat
         .formatToParts(now)
         .filter((p) => p.type !== "literal")
-        .map((p) => [p.type, p.value])
+        .map((p) => [p.type, p.value]),
     );
     let year = Number(parts.year);
     let month = Number(parts.month) - 1;
@@ -71,6 +73,8 @@
       minute: "2-digit",
       timeZoneName: "short",
     });
-    els.forEach((el) => { el.textContent = text; });
+    els.forEach((el) => {
+      el.textContent = text;
+    });
   }
 })();

@@ -43,24 +43,26 @@
 </div>
 
 <section class="events-section" id="events">
-  {{- $events := where site.RegularPages "Section" "events" }}
-  {{- $featured := slice }}
-  {{- range $events }}
-    {{- if or (.Params.recurring) (and (not .Date.IsZero) (.Date.After (now.AddDate 0 0 -1))) }}
-      {{- $featured = $featured | append . }}
-    {{- end }}
-  {{- end }}
-
-  {{- if $featured }}
+  {{- $events := where site.RegularPages "Section" "events" }} {{- $featured :=
+  slice }} {{- range $events }} {{- if or (.Params.recurring) (and (not
+  .Date.IsZero) (.Date.After (now.AddDate 0 0 -1))) }} {{- $featured = $featured
+  | append . }} {{- end }} {{- end }} {{- if $featured }}
   <div class="events-grid">
     {{- range $featured }}
-    <a class="event-card {{ if .Params.recurring }}recurring{{ else if not .Date.IsZero }}upcoming{{ end }}" href="{{ .Permalink }}">
+    <a
+      class="event-card {{ if .Params.recurring }}recurring{{ else if not .Date.IsZero }}upcoming{{ end }}"
+      href="{{ .Permalink }}"
+    >
       <span class="event-card-text">
         <span class="event-card-title">{{ .Title }}</span>
         {{- if .Params.recurring }}
-        <span class="event-card-date">Next: <span class="meeting-next"></span></span>
+        <span class="event-card-date"
+          >Next: <span class="meeting-next"></span
+        ></span>
         {{- else if not .Date.IsZero }}
-        <span class="event-card-date">{{ .Date.Format "January 2, 2006" }}</span>
+        <span class="event-card-date"
+          >{{ .Date.Format "January 2, 2006" }}</span
+        >
         {{- end }}
       </span>
     </a>

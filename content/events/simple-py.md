@@ -127,6 +127,6 @@ We can provide airfare and lodging during the workshop days (and a day surroundi
 
 This will take place during the SciPy tutorials. You can still go to up to one tutorial session and attend the rest of this workshop; let us know if you need to do that below. We will be sharing some of the same setup as the SciPy tutorials.
 
-A signup is coming soon.
+Signup here: <https://forms.gle/dZxQiURTLyj7H9KH6>
 
 The schedule below is subject to change.

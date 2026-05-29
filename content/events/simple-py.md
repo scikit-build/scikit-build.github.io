@@ -121,12 +121,38 @@ schedule:
 
 This event takes place July 13-14 alongside [SciPy
 2026](https://www.scipy2026.scipy.org) at the University of Minnesota,
-Minneapolis, MN.
+Minneapolis, MN. We'll be in the
+[Health Sciences Education Center](https://share.google/6TnOM6VE7qavktJdA "520 Delaware St SE, Minneapolis, MN 55454"),
+[HSEC 2-101A/B](https://healthclassrooms.umn.edu/classrooms/hsec-2-101ab).
 
-We can provide airfare and lodging during the workshop days (and a day surrounding them, so July 12-15) for participants. If you'd like to go to SciPy too, we can't cover the SciPy portion of the stay, but airfare is covered and we can pay for the hotel block days during our workshop. Priority will be given to applicants associated with US educational institutions, but feel free to apply if you are not, we can try to get you in if we have space.
+We can provide airfare and lodging reimbursement during the workshop days (and
+up to a day surrounding them, so July 12-15) for participants. If you'd like to
+go to SciPy too, we can't cover the SciPy portion of the stay, but airfare to
+and from can be reimbursed and we can pay for the hotel block days during our
+workshop. Priority will be given to applicants associated with US educational
+institutions, but feel free to apply if you are not, we can try to get you in
+if we have space.
 
-This will take place during the SciPy tutorials. You can still go to up to one tutorial session and attend the rest of this workshop; let us know if you need to do that below. We will be sharing some of the same setup as the SciPy tutorials.
+Signup will close shortly after we fill up or at the end of June, which ever
+comes first. If you have diatary restrictions, please try to fill out the form
+as early as possible. **[The room block at the Graduate by Hilton](https://book.passkey.com/e/51116017)
+closes June 22**, so it is highly recommended to sign up and reserve your room
+before then! If you book another hotel, we can cover up to $250 per day. Book
+your flights as soon as possible. This is an NSF funded workshop, so please
+book a normal economy (not basic) flight following the
+[Fly America Act](https://www.gsa.gov/policy-regulations/policy/travel-management-policy-overview/fly-america-act)
+if possible. Please contact us if flights will cost over $800.
+
+We will provide lunch and coffee for the two workshop days (matching SciPy
+tutorials, we are using their catering).
+
+This will take place during the SciPy tutorials. You can still go to up to one
+tutorial session and attend the rest of this workshop; let us know if you need
+to do that below. We will be sharing setup and catering with the SciPy
+tutorials.
 
 Signup here: <https://forms.gle/dZxQiURTLyj7H9KH6>
+
+If you have questions, contact [Henry Schreiner](https://phy.princeton.edu/people/henry-schreiner) at `henryfs (at) princeton.edu`.
 
 The schedule below is subject to change.

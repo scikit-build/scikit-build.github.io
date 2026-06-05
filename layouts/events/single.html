@@ -55,6 +55,7 @@
             <div class="slot-header">
               <span class="slot-title">{{ .title }}</span>
               {{- with .duration }}<span class="slot-duration">{{ . }}</span>{{-
+              end }} {{- with .name }}<span class="slot-name">{{ . }}</span>{{-
               end }}
             </div>
             {{- with .sessions }}
@@ -62,10 +63,19 @@
               {{- range . }}
               <li class="session-item">
                 <div class="session-header">
-                  <span class="session-title">{{ .title }}</span>
+                  <span class="session-title-group">
+                    {{- if .link }}
+                    <a class="session-title" href="{{ .link }}">{{ .title }}</a>
+                    {{- else }}
+                    <span class="session-title">{{ .title }}</span>
+                    {{- end -}}
+                    {{- with .slides }}<a class="session-slides" href="{{ . }}" title="Slides" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></a>{{- end }}
+                  </span>
                   {{- with .duration }}<span class="session-duration"
                     >{{ . }}</span
                   >{{- end }} {{- with .format }}<span class="session-format"
+                    >{{ . }}</span
+                  >{{- end }} {{- with .name }}<span class="session-name"
                     >{{ . }}</span
                   >{{- end }}
                 </div>

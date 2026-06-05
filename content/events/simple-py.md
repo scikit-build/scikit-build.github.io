@@ -119,36 +119,49 @@ schedule:
         title: "Close out"
 ---
 
-This event takes place July 13-14 alongside [SciPy
-2026](https://www.scipy2026.scipy.org) at the University of Minnesota,
+SIMPLE-Py is a two-day hands-on workshop on Scientific Python packaging,
+starting with modern pure-Python packaging basics, and covering compiled
+extensions with scikit-build-core, binding tools, and secure publishing
+workflows. The workshop is designed for anyone who wants to learn about modern
+Python packaging practices for compiled packages, with travel reimbursement
+available for participants.
+
+There is a (short) open hack at the end; some of us will be available during
+the sprints as well, so feel free to bring your packaging problems! At least
+three PEP authors will be at the workshop.
+
+This workshop takes place July 13-14 alongside the [SciPy
+2026](https://www.scipy2026.scipy.org) tutorials at the University of Minnesota,
 Minneapolis, MN. We'll be in the
 [Health Sciences Education Center](https://share.google/6TnOM6VE7qavktJdA "520 Delaware St SE, Minneapolis, MN 55454"),
 [HSEC 2-101A/B](https://healthclassrooms.umn.edu/classrooms/hsec-2-101ab).
 
 We can provide airfare and lodging reimbursement during the workshop days (and
-up to a day surrounding them, so July 12-15) for participants. If you'd like to
-go to SciPy too, we can't cover the SciPy portion of the stay, but airfare to
-and from can be reimbursed and we can pay for the hotel block days during our
+the night before, so July 12, 13, and 14) for participants. If you'd like to go
+to SciPy too, we can't cover the SciPy portion of the stay, but airfare to and
+from can be reimbursed and we can pay for the hotel block days during our
 workshop. Priority will be given to applicants associated with US educational
 institutions, but feel free to apply if you are not, we can try to get you in
 if we have space.
 
 Signup will close shortly after we fill up or at the end of June, which ever
 comes first. If you have diatary restrictions, please try to fill out the form
-as early as possible. **[The room block at the Graduate by Hilton](https://book.passkey.com/e/51116017)
-closes June 22**, so it is highly recommended to sign up and reserve your room
-before then! If you book another hotel, we can cover up to $250 per day. Book
-your flights as soon as possible. This is an NSF funded workshop, so please
-book a normal economy (not basic) flight following the
-[Fly America Act](https://www.gsa.gov/policy-regulations/policy/travel-management-policy-overview/fly-america-act)
-if possible. Please contact us if flights will cost over $800.
+as early as possible. **[The room block at the Graduate by
+Hilton](https://book.passkey.com/e/51116017) closes June 22**, so it is highly
+recommended to sign up and reserve your room before then! If you book another
+hotel, we can cover up to $250 per day. Book your flights (or have us book
+them) as soon as possible. This is an NSF funded workshop, so please book a
+normal economy (not basic) flight following the [Fly America
+Act](https://www.gsa.gov/policy-regulations/policy/travel-management-policy-overview/fly-america-act)
+if possible. Please contact us if flights will cost over $800 (like for
+international).
 
 We will provide lunch and coffee for the two workshop days (matching SciPy
 tutorials, we are using their catering).
 
 This will take place during the SciPy tutorials. You can still go to up to one
 tutorial session and attend the rest of this workshop; let us know if you need
-to do that below. We will be sharing setup and catering with the SciPy
+to do that in the form below. We will be sharing setup and catering with the SciPy
 tutorials.
 
 Signup here: <https://forms.gle/dZxQiURTLyj7H9KH6>

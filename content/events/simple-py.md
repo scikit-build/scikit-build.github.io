@@ -114,7 +114,6 @@ schedule:
         title: "Other tools (2)"
         duration: "15 mins"
         sessions:
-        sessions:
           - title: "Shipping to distros"
             duration: "15 mins"
             name: "Cristian Le"

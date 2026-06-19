@@ -104,6 +104,10 @@
                     <span class="session-title">{{ .title }}</span>
                     {{- with .duration }}<span class="session-duration"
                       >{{ . }}</span
+                    >{{- end }} {{- with .format }}<span class="session-format"
+                      >{{ . }}</span
+                    >{{- end }} {{- with .name }}<span class="session-name"
+                      >{{ . }}</span
                     >{{- end }}
                   </li>
                   {{- end }}

@@ -136,6 +136,25 @@ schedule:
         duration: "2 hours 45 mins with coffee"
       - time: "5:30"
         title: "Close out"
+attendees:
+  # Each entry is either a plain name or a map with name/affiliation/link.
+  - name: "Henry Schreiner"
+    affiliation: "Princeton University"
+    link: "https://iscinumpy.dev"
+  - name: "C.A.M. Gerlach"
+  - name: "Cristian Le"
+    affiliation: "Red Hat"
+  - name: "Ethan Muldoon"
+  - name: "Iason Krommydas"
+  - name: "Katelyn FitzGerald"
+    affiliation: "NSF National Center for Atmospheric Research"
+  - name: "Kurt McKee"
+    affiliation: "University of Chicago, Globus"
+  - name: "Lundy Bernatd"
+  - name: "Maryam Hosseini"
+  - name: "Matt McCormick"
+  - name: "Matthew Feickert"
+  - name: "Yaping Yang"
 ---
 
 SIMPLE-Py is a two-day hands-on workshop on Scientific Python packaging,

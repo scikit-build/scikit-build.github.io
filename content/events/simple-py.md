@@ -150,7 +150,7 @@ attendees:
     affiliation: "NSF National Center for Atmospheric Research"
   - name: "Kurt McKee"
     affiliation: "University of Chicago, Globus"
-  - name: "Lundy Bernatd"
+  - name: "Lundy Bernard"
   - name: "Maryam Hosseini"
   - name: "Matt McCormick"
   - name: "Matthew Feickert"

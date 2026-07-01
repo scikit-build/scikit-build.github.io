@@ -183,7 +183,8 @@ tutorial session and attend the rest of this workshop; let us know if you need
 to do that in the form below. We will be sharing setup and catering with the SciPy
 tutorials.
 
-Signup here: <https://forms.gle/dZxQiURTLyj7H9KH6>
+Signup here: <https://forms.gle/dZxQiURTLyj7H9KH6> (closed July 1, contact us
+directly).
 
 If you have questions, contact [Henry Schreiner](https://phy.princeton.edu/people/henry-schreiner) at `henryfs (at) princeton.edu`.
 

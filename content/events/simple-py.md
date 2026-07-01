@@ -155,6 +155,11 @@ attendees:
   - name: "Matt McCormick"
   - name: "Matthew Feickert"
   - name: "Yaping Yang"
+  - name: "Tarun Gandrathi"
+  - name: "Dan Schafer"
+  - name: "Jacob Wessel"
+  - name: "Mike Germinger"
+  - name: "Bradely Dice"
 ---
 
 SIMPLE-Py is a two-day hands-on workshop on Scientific Python packaging,

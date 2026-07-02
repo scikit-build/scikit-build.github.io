@@ -145,6 +145,7 @@ attendees:
   - name: "Cristian Le"
     affiliation: "Red Hat"
   - name: "Ethan Muldoon"
+    affiliation: "Oregon State University"
   - name: "Iason Krommydas"
   - name: "Katelyn FitzGerald"
     affiliation: "NSF National Center for Atmospheric Research"
@@ -154,12 +155,18 @@ attendees:
   - name: "Maryam Hosseini"
   - name: "Matt McCormick"
   - name: "Matthew Feickert"
+    affiliation: "University of Wisconsin-Madison"
   - name: "Yaping Yang"
   - name: "Tarun Gandrathi"
+    affiliation: "ZS Associates"
   - name: "Dan Schafer"
+    affiliation: "Massachusetts General Hospital/Harvard Medical School"
   - name: "Jacob Wessel"
+    affiliation: "Princeton University"
   - name: "Mike Germinger"
+    affiliation: "University of Minnesota Duluth"
   - name: "Bradely Dice"
+    affiliation: "NVIDIA"
 ---
 
 SIMPLE-Py is a two-day hands-on workshop on Scientific Python packaging,

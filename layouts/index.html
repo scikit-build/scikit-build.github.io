@@ -148,6 +148,13 @@
           </svg>
           GitHub
         </span>
+        {{- if .pypi }} {{- $pkg := path.Base (strings.TrimSuffix "/" .pypi) }}
+        {{- $resp := try (resources.GetRemote (printf
+        "https://pypi.org/pypi/%s/json" $pkg)) }} {{- with $resp.Value }} {{- if
+        eq .MediaType.SubType "json" }} {{- with (transform.Unmarshal
+        .).info.version }}
+        <span class="project-card-version">v{{ . }}</span>
+        {{- end }} {{- end }} {{- end }} {{- end }}
       </div>
     </a>
     {{- end }}

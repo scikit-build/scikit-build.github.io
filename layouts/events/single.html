@@ -124,6 +124,25 @@
     </section>
     {{- end }}
   </div>
+  {{- end }} {{- with .Params.attendees }}
+  <div class="attendees">
+    <h2 class="attendees-title">Attendees</h2>
+    <ul class="attendee-list">
+      {{- range . }} {{- $name := . }}{{ $affiliation := "" }}{{ $link := "" }}
+      {{- if reflect.IsMap . }}{{ $name = .name }}{{ $affiliation = .affiliation
+      }}{{ $link = .link }}{{- end }}
+      <li class="attendee-item">
+        {{- if $link }}
+        <a class="attendee-name" href="{{ $link }}">{{ $name }}</a>
+        {{- else }}
+        <span class="attendee-name">{{ $name }}</span>
+        {{- end }} {{- with $affiliation }}<span class="attendee-affiliation"
+          >{{ . }}</span
+        >{{- end }}
+      </li>
+      {{- end }}
+    </ul>
+  </div>
   {{- end }}
 </article>
 {{- end }}

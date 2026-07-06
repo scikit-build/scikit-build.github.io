@@ -217,6 +217,56 @@ a.session-title:hover {
   flex-wrap: wrap;
 }
 
+/* ── Attendees ───────────────────────────────────────────────────────────── */
+.attendees {
+  margin-top: 2.5rem;
+}
+
+.attendees-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin: 0 0 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--border);
+}
+
+.attendee-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
+  gap: 0.4rem 1rem;
+}
+
+.attendee-item {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+}
+
+.attendee-name {
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+a.attendee-name {
+  text-decoration: underline;
+  text-decoration-color: var(--border);
+  text-underline-offset: 2px;
+  color: inherit;
+}
+
+a.attendee-name:hover {
+  text-decoration-color: var(--primary);
+}
+
+.attendee-affiliation {
+  font-size: 0.8rem;
+  font-style: italic;
+  color: var(--secondary);
+}
+
 /* ── Event banner ────────────────────────────────────────────────────────── */
 .event-banner {
   margin: 1.5rem 0;

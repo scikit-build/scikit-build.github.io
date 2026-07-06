@@ -48,6 +48,14 @@
   pypi: https://pypi.org/project/f2py-cmake/
   labels: ["CMake"]
 
+- name: dynamic-metadata
+  description: >-
+    A plugin protocol letting build backends compute PEP 621 project metadata
+    (version, readme, dependencies) at build time, with bundled plugins.
+  github: https://github.com/scikit-build/dynamic-metadata
+  docs: https://dynamic-metadata.readthedocs.io/
+  pypi: https://pypi.org/project/dynamic-metadata/
+
 - name: moderncmakedomain
   description: >-
     A Sphinx domain for Modern CMake, providing rich cross-referencing and

@@ -61,7 +61,7 @@
     A Sphinx domain for Modern CMake, providing rich cross-referencing and
     documentation support for CMake commands, variables, and modules.
   github: https://github.com/scikit-build/moderncmakedomain
-  pypi: https://pypi.org/project/moderncmakedomain/
+  pypi: https://pypi.org/project/sphinxcontrib-moderncmakedomain/
 
 - name: scikit-build-sample-projects
   description: >-

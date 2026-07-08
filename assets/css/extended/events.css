@@ -235,8 +235,14 @@ a.session-title:hover {
   padding: 0;
   margin: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
+  grid-template-columns: 1fr;
   gap: 0.4rem 1rem;
+}
+
+@media (min-width: 34rem) {
+  .attendee-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 .attendee-item {

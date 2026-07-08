@@ -180,6 +180,8 @@ attendees:
     affiliation: "University of Minnesota Duluth"
   - name: "Bradely Dice"
     affiliation: "NVIDIA"
+  - name: "Jeremy Tanner"
+    affiliation: "NVIDIA"
 ---
 
 SIMPLE-Py is a two-day hands-on workshop on Scientific Python packaging,

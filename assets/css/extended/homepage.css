@@ -14,11 +14,6 @@
   display: block;
 }
 
-/* Invert the logo in dark mode so it stays visible */
-.dark .home-hero-logo {
-  filter: invert(1);
-}
-
 .home-hero-subtitle {
   font-size: 1.05rem;
   color: var(--secondary);
@@ -125,11 +120,13 @@
   background: linear-gradient(135deg, #10b981, #22d3ee);
 }
 
-.dark .event-card.recurring::before {
+.dark .event-card.recurring::before,
+:root[data-theme="dark"] .event-card.recurring::before {
   background: linear-gradient(135deg, #60a5fa, #818cf8);
 }
 
-.dark .event-card.upcoming::before {
+.dark .event-card.upcoming::before,
+:root[data-theme="dark"] .event-card.upcoming::before {
   background: linear-gradient(135deg, #34d399, #67e8f9);
 }
 
@@ -279,7 +276,8 @@
 }
 
 /* Dark mode tweaks */
-.dark .project-card:hover {
+.dark .project-card:hover,
+:root[data-theme="dark"] .project-card:hover {
   box-shadow: 0 2px 12px rgba(255, 255, 255, 0.05);
 }
 

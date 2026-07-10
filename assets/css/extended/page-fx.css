@@ -44,11 +44,16 @@ body {
 }
 
 /* Fixed full-viewport layer; page-fx.js fills it with code snippets and
-   sets each one's position, font-size, opacity, and blur from its depth */
+   sets each one's position, font-size, opacity, and blur from its depth.
+   100lvh keeps the layer size stable when the mobile URL bar collapses. */
 .page-fx {
   position: fixed;
   z-index: -1;
-  inset: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  height: 100lvh;
   overflow: hidden;
   pointer-events: none;
 }

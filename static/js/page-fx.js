@@ -4,10 +4,28 @@
 // fraction of the scroll speed it moves at — which also sets its size,
 // opacity, and blur (far = small, dim, soft). Snippets that scroll off the
 // top wrap around to the bottom while fully hidden, so the field never
-// empties. Purely decorative.
+// empties. All randomness is a per-cell hash of a per-load seed, so a
+// rebuild (resize, mobile URL bar) reproduces the same field instead of
+// reshuffling it. Purely decorative.
 (function () {
   const layer = document.querySelector(".page-fx");
   if (!layer) return;
+
+  // One seed per page load; every cell derives its values from it, so
+  // layouts differ between visits but are stable within one.
+  const SEED = (Math.random() * 0xffffffff) >>> 0;
+
+  // mulberry32 keyed on the grid cell — same cell, same stream of values
+  function cellRng(r, c) {
+    let a =
+      (SEED ^ Math.imul(r + 1, 0x85ebca6b) ^ Math.imul(c + 1, 0xc2b2ae35)) | 0;
+    return function () {
+      a = (a + 0x6d2b79f5) | 0;
+      let t = Math.imul(a ^ (a >>> 15), 1 | a);
+      t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+      return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+    };
+  }
 
   const SNIPPETS = [
     "cmake_minimum_required(VERSION 3.15...4.3)\nproject(${SKBUILD_PROJECT_NAME} LANGUAGES C)",
@@ -42,19 +60,24 @@
   const SPEED = 0.6; // global multiplier on every snippet's scroll speed
 
   let items = [];
+  let builtW = 0;
+  let builtH = 0;
 
   function build() {
     layer.textContent = "";
     items = [];
+    builtW = layer.clientWidth;
+    builtH = layer.clientHeight;
     const height = layer.clientHeight || window.innerHeight;
     const originX = (layer.clientWidth - CANVAS_W) / 2;
     const cols = Math.ceil(CANVAS_W / CELL_W);
     const rows = Math.ceil(height / CELL_H);
     for (let r = 0; r < rows; r++) {
       for (let c = 0; c < cols; c++) {
-        let depth = 0.08 + Math.random() * 0.42;
-        const x = originX + (c + 0.1 + Math.random() * 0.8) * CELL_W;
-        const y = (r + 0.1 + Math.random() * 0.8) * CELL_H;
+        const rnd = cellRng(r, c);
+        let depth = 0.08 + rnd() * 0.42;
+        const x = originX + (c + 0.1 + rnd() * 0.8) * CELL_W;
+        const y = (r + 0.1 + rnd() * 0.8) * CELL_H;
         // Keep the zone behind the logo/subtitle far and faint
         if (Math.abs(x - layer.clientWidth / 2) < 380 && y < height * 0.42) {
           depth = Math.min(depth, 0.14);
@@ -62,7 +85,7 @@
         const pool = depth > 0.32 ? SHORT : SNIPPETS;
         const el = document.createElement("pre");
         el.className = "fx-code";
-        el.textContent = pool[(Math.random() * pool.length) | 0];
+        el.textContent = pool[(rnd() * pool.length) | 0];
         el.style.left = `${x.toFixed(0)}px`;
         el.style.top = `${y.toFixed(0)}px`;
         el.style.fontSize = `${(8 + depth * 16).toFixed(1)}px`;
@@ -111,6 +134,9 @@
   window.addEventListener("resize", () => {
     clearTimeout(resizeTimer);
     resizeTimer = setTimeout(() => {
+      // Mobile URL-bar show/hide fires resize without changing the
+      // 100lvh layer — nothing to rebuild
+      if (layer.clientWidth === builtW && layer.clientHeight === builtH) return;
       build();
       wake();
     }, 150);

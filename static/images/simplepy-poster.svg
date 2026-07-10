@@ -1,0 +1,985 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="18in"
+   height="24in"
+   viewBox="0 0 1728 2304"
+   version="1.1"
+   id="poster"
+   sodipodi:docname="simplepy-poster.svg"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   inkscape:export-filename="simplepy-poster.pdf"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="in"
+     inkscape:zoom="0.72705218"
+     inkscape:cx="984.79864"
+     inkscape:cy="616.87457"
+     inkscape:window-width="1833"
+     inkscape:window-height="1304"
+     inkscape:window-x="364"
+     inkscape:window-y="30"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer-footer" />
+  <defs
+     id="defs1">
+    <linearGradient
+       id="bg"
+       x1="0"
+       y1="0"
+       x2="1728"
+       y2="2304"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         stop-color="#0B1628"
+         id="stop1" />
+      <stop
+         offset="50%"
+         stop-color="#0F1E33"
+         id="stop2" />
+      <stop
+         offset="100%"
+         stop-color="#16263D"
+         id="stop3" />
+    </linearGradient>
+    <linearGradient
+       id="accent"
+       x1="0"
+       y1="0"
+       x2="1"
+       y2="0">
+      <stop
+         offset="0%"
+         stop-color="#FFD43B"
+         id="stop4" />
+      <stop
+         offset="100%"
+         stop-color="#3776AB"
+         id="stop5" />
+    </linearGradient>
+    <radialGradient
+       id="glow"
+       cx="864"
+       cy="290"
+       r="640"
+       fx="864"
+       fy="290"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.2778816,0.00213951,-0.00116051,0.45234374,-240.49583,156.47177)">
+      <stop
+         offset="0%"
+         stop-color="#4DA3FF"
+         stop-opacity="0.25"
+         id="stop6" />
+      <stop
+         offset="100%"
+         stop-color="#4DA3FF"
+         stop-opacity="0"
+         id="stop7" />
+    </radialGradient>
+    <linearGradient
+       id="pyBlue"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.562541,0,0,0.567972,-9.399749,-5.305317)"
+       x1="26.648937"
+       y1="20.603781"
+       x2="135.66525"
+       y2="114.39767">
+      <stop
+         stop-color="#5a9fd4"
+         offset="0"
+         id="stop8" />
+      <stop
+         stop-color="#306998"
+         offset="1"
+         id="stop9" />
+    </linearGradient>
+    <linearGradient
+       id="pyYellow"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.562541,0,0,0.567972,-9.399749,-5.305317)"
+       x1="150.96111"
+       y1="192.35176"
+       x2="112.03144"
+       y2="137.27299">
+      <stop
+         stop-color="#ffd43b"
+         offset="0"
+         id="stop10" />
+      <stop
+         stop-color="#ffe873"
+         offset="1"
+         id="stop11" />
+    </linearGradient>
+    <style
+       id="style1">
+      .title { font-family: Inter, 'Segoe UI', Arial, sans-serif; font-weight: 700; font-size: 118px; fill: #E6EDF3; }
+      .eyebrow { font-family: Inter, 'Segoe UI', Arial, sans-serif; font-weight: 700; font-size: 34px; fill: #FFD43B; letter-spacing: 12px; }
+      .subtitle { font-family: Inter, 'Segoe UI', Arial, sans-serif; font-size: 36px; fill: #AFC2D6; }
+      .subtitle tspan.b { font-weight: 700; }
+      .when { font-family: Inter, 'Segoe UI', Arial, sans-serif; font-weight: 700; font-size: 40px; fill: #E6EDF3; }
+      .where { font-family: Inter, 'Segoe UI', Arial, sans-serif; font-size: 30px; fill: #AFC2D6; }
+      .dayhead { font-family: Inter, 'Segoe UI', Arial, sans-serif; font-weight: 700; font-size: 40px; fill: #E6EDF3; }
+      .time { font-family: Inter, 'Segoe UI', Arial, sans-serif; font-weight: 700; font-size: 28px; fill: #FFD43B; }
+      .slot { font-family: Inter, 'Segoe UI', Arial, sans-serif; font-weight: 700; font-size: 28px; fill: #E6EDF3; }
+      .sess { font-family: Inter, 'Segoe UI', Arial, sans-serif; font-size: 22px; fill: #AFC2D6; }
+      .name { font-family: Inter, 'Segoe UI', Arial, sans-serif; font-size: 19px; font-weight: 400; fill: #7D93AB; }
+      .url { font-family: Inter, 'Segoe UI', Arial, sans-serif; font-weight: 700; font-size: 46px; fill: #4DA3FF; }
+      .note { font-family: Inter, 'Segoe UI', Arial, sans-serif; font-size: 26px; fill: #7D93AB; }
+      .code { font-family: 'Courier New', monospace; font-size: 24px; fill: #ffffff; opacity: 0.16; }
+      .cls-1 { fill: #3eae2b; } .cls-2 { fill: #0068c7; } .cls-3 { fill: #f32735; } .cls-4 { fill: #dce3ec; }
+      .cls-1, .cls-2, .cls-3, .cls-4 { stroke-width: 0px; }
+      .st0 { fill: #EC8223; } .st1 { fill: #5FCBEA; } .st2 { fill: #D36F28; } .st3 { fill: #D1D3D4; }
+    </style>
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="Background"
+     id="layer-bg">
+    <rect
+       width="1728"
+       height="2304"
+       fill="url(#bg)"
+       id="bgrect" />
+    <ellipse
+       cx="864"
+       cy="300"
+       rx="817"
+       ry="330"
+       fill="url(#glow)"
+       id="titleglow"
+       style="fill:url(#glow);stroke-width:1.1126" />
+    <text
+       xml:space="preserve"
+       class="code"
+       x="48"
+       y="72"
+       id="code-cmake"><tspan
+         x="48"
+         y="72"
+         id="tspan11">cmake_minimum_required(VERSION 3.15...4.4)</tspan><tspan
+         x="48"
+         y="102"
+         id="tspan12">project(${SKBUILD_PROJECT_NAME} LANGUAGES C)</tspan></text>
+    <text
+       xml:space="preserve"
+       class="code"
+       x="1680"
+       y="72"
+       text-anchor="end"
+       id="code-toml"><tspan
+         x="1680"
+         y="72"
+         id="tspan13">[build-system]</tspan><tspan
+         x="1680"
+         y="102"
+         id="tspan14">requires = [&quot;scikit-build-core&quot;]</tspan></text>
+    <text
+       xml:space="preserve"
+       class="code"
+       x="48"
+       y="1998"
+       id="code-tree"><tspan
+         x="48"
+         y="1998"
+         id="tspan-tree1">example-project</tspan><tspan
+         x="48"
+         y="2028"
+         id="tspan-tree2">├── example.c</tspan><tspan
+         x="48"
+         y="2058"
+         id="tspan-tree3">├── pyproject.toml</tspan><tspan
+         x="48"
+         y="2088"
+         id="tspan-tree4">└── CMakeLists.txt</tspan></text>
+    <text
+       xml:space="preserve"
+       class="code"
+       x="48"
+       y="2170"
+       id="code-pybind11"><tspan
+         x="48"
+         y="2170"
+         id="tspan-pb1">PYBIND11_MODULE(_core, m) {</tspan><tspan
+         x="48"
+         y="2200"
+         id="tspan-pb2">    m.def(&quot;add&quot;, &amp;add);</tspan><tspan
+         x="48"
+         y="2230"
+         id="tspan-pb3">}</tspan></text>
+    <text
+       xml:space="preserve"
+       class="code"
+       x="1680"
+       y="1988"
+       text-anchor="end"
+       id="code-nanobind"><tspan
+         x="1680"
+         y="1988"
+         id="tspan-nb1">NB_MODULE(_core, m) {</tspan><tspan
+         x="1680"
+         y="2018"
+         id="tspan-nb2">  m.def(&quot;square&quot;, &amp;square);</tspan><tspan
+         x="1680"
+         y="2048"
+         id="tspan-nb3">}</tspan></text>
+    <text
+       xml:space="preserve"
+       class="code"
+       x="1680"
+       y="2216"
+       text-anchor="end"
+       id="code-skb-toml"><tspan
+         x="1680"
+         y="2216"
+         id="tspan-skb1">[tool.scikit-build]</tspan><tspan
+         x="1680"
+         y="2246"
+         id="tspan-skb2">wheel.py-api = &quot;cp38&quot;</tspan></text>
+    <g
+       stroke="#4da3ff"
+       stroke-width="2.5"
+       fill="none"
+       opacity="0.3"
+       id="cube"
+       transform="matrix(0.9,0,0,0.9,1181.369,2053.1084)">
+      <rect
+         x="0"
+         y="40"
+         width="120"
+         height="120"
+         id="rect14" />
+      <rect
+         x="60"
+         y="0"
+         width="120"
+         height="120"
+         id="rect15" />
+      <line
+         x1="0"
+         y1="40"
+         x2="60"
+         y2="0"
+         id="line15" />
+      <line
+         x1="120"
+         y1="40"
+         x2="180"
+         y2="0"
+         id="line16" />
+      <line
+         x1="0"
+         y1="160"
+         x2="60"
+         y2="120"
+         id="line17" />
+      <line
+         x1="120"
+         y1="160"
+         x2="180"
+         y2="120"
+         id="line18" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="Header"
+     id="layer-header">
+    <text
+       x="864"
+       y="152"
+       text-anchor="middle"
+       class="eyebrow"
+       id="eyebrow">WELCOME TO</text>
+    <text
+       x="864"
+       y="292"
+       text-anchor="middle"
+       class="title"
+       id="title">SIMPLE-Py Workshop</text>
+    <text
+       x="864"
+       y="368"
+       text-anchor="middle"
+       class="subtitle"
+       id="subtitle"><tspan
+   class="b"
+   id="tspan18">S</tspan>cientific <tspan
+   class="b"
+   id="tspan19">I</tspan>nstallation &amp; <tspan
+   class="b"
+   id="tspan20">M</tspan>odern <tspan
+   class="b"
+   id="tspan21">P</tspan>ackaging for <tspan
+   class="b"
+   id="tspan22">L</tspan>anguage <tspan
+   class="b"
+   id="tspan23">E</tspan>xtensions in <tspan
+   class="b"
+   id="tspan24">P</tspan><tspan
+   class="b"
+   id="tspan25">y</tspan>thon</text>
+    <rect
+       x="264"
+       y="404"
+       width="1200"
+       height="5"
+       rx="2.5"
+       fill="url(#accent)"
+       id="divider-top" />
+    <text
+       x="864"
+       y="476"
+       text-anchor="middle"
+       class="when"
+       id="when">July 13–14, 2026 · University of Minnesota, Minneapolis</text>
+    <text
+       x="864"
+       y="526"
+       text-anchor="middle"
+       class="where"
+       id="where">Health Sciences Education Center · HSEC 2-101A/B</text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="Schedule"
+     id="layer-schedule">
+    <rect
+       x="48"
+       y="580"
+       width="798"
+       height="1320"
+       rx="18"
+       fill="#122238"
+       stroke="#2C4A6E"
+       stroke-width="2"
+       id="panel-day1" />
+    <rect
+       x="882"
+       y="580"
+       width="798"
+       height="1320"
+       rx="18"
+       fill="#122238"
+       stroke="#2C4A6E"
+       stroke-width="2"
+       id="panel-day2" />
+    <text
+       x="82"
+       y="654"
+       class="dayhead"
+       id="text25">Day 1 · Monday, July 13</text>
+    <rect
+       x="82"
+       y="676"
+       width="730"
+       height="4"
+       rx="2"
+       fill="url(#accent)"
+       id="rect25" />
+    <text
+       x="152"
+       y="738"
+       text-anchor="end"
+       class="time"
+       id="text26">8:00</text>
+    <text
+       x="170"
+       y="738"
+       class="slot"
+       id="text27">Breakfast</text>
+    <text
+       x="152"
+       y="808"
+       text-anchor="end"
+       class="time"
+       id="text28">9:00</text>
+    <text
+       x="170"
+       y="808"
+       class="slot"
+       id="text29">Welcome and overview<tspan
+   class="name"
+   dx="10"
+   id="tspan28">— Henry Schreiner</tspan></text>
+    <text
+       x="152"
+       y="878"
+       text-anchor="end"
+       class="time"
+       id="text30">9:10</text>
+    <text
+       x="170"
+       y="878"
+       class="slot"
+       id="text31">Basic Packaging</text>
+    <text
+       x="196"
+       y="924"
+       class="sess"
+       id="text32">Setting up for development<tspan
+   class="name"
+   dx="10"
+   id="tspan31">— Henry Schreiner</tspan></text>
+    <text
+       x="196"
+       y="964"
+       class="sess"
+       id="text33">Uv vs. Pixi: a showdown</text>
+    <text
+       x="220"
+       y="1000"
+       class="name"
+       id="text34">— Henry Schreiner vs. Matthew Feickert</text>
+    <text
+       x="196"
+       y="1040"
+       class="sess"
+       id="text35">Making a basic package<tspan
+   class="name"
+   dx="10"
+   id="tspan34">— CAM Gerlach</tspan></text>
+    <text
+       x="196"
+       y="1080"
+       class="sess"
+       id="text36">Coffee break</text>
+    <text
+       x="196"
+       y="1120"
+       class="sess"
+       id="text37">Best development practices and the SP guide</text>
+    <text
+       x="220"
+       y="1156"
+       class="name"
+       id="text38">— Henry Schreiner</text>
+    <text
+       x="196"
+       y="1196"
+       class="sess"
+       id="text39">Publishing and CI<tspan
+   class="name"
+   dx="10"
+   id="tspan39">— Henry Schreiner</tspan></text>
+    <text
+       x="152"
+       y="1266"
+       text-anchor="end"
+       class="time"
+       id="text40">12:00</text>
+    <text
+       x="170"
+       y="1266"
+       class="slot"
+       id="text41">Lunch</text>
+    <text
+       x="152"
+       y="1336"
+       text-anchor="end"
+       class="time"
+       id="text42">1:30</text>
+    <text
+       x="170"
+       y="1336"
+       class="slot"
+       id="text43">Intro to compiled packaging</text>
+    <text
+       x="196"
+       y="1382"
+       class="sess"
+       id="text44">A minimal compiled package with scikit-build</text>
+    <text
+       x="220"
+       y="1418"
+       class="name"
+       id="text45">— Henry Schreiner</text>
+    <text
+       x="196"
+       y="1458"
+       class="sess"
+       id="text46">Binding tools</text>
+    <text
+       x="226"
+       y="1498"
+       class="sess"
+       id="text47">Pybind11 and nanobind<tspan
+   class="name"
+   dx="10"
+   id="tspan46">— Henry Schreiner</tspan></text>
+    <text
+       x="226"
+       y="1538"
+       class="sess"
+       id="text48">Maturin, PyO3, and Rust<tspan
+   class="name"
+   dx="10"
+   id="tspan47">— Matt McCormick</tspan></text>
+    <text
+       x="196"
+       y="1578"
+       class="sess"
+       id="text49">Coffee break</text>
+    <text
+       x="196"
+       y="1618"
+       class="sess"
+       id="text50">Publishing with cibuildwheel<tspan
+   class="name"
+   dx="10"
+   id="tspan50">— Henry Schreiner</tspan></text>
+    <text
+       x="152"
+       y="1688"
+       text-anchor="end"
+       class="time"
+       id="text51">5:00</text>
+    <text
+       x="170"
+       y="1688"
+       class="slot"
+       id="text52">Interesting topics</text>
+    <text
+       x="196"
+       y="1734"
+       class="sess"
+       id="text53">Modern Python: lazy imports<tspan
+   class="name"
+   dx="10"
+   id="tspan52">— Henry Schreiner</tspan></text>
+    <text
+       x="196"
+       y="1774"
+       class="sess"
+       id="text54">Modern Python: free threading<tspan
+   class="name"
+   dx="10"
+   id="tspan53">— Henry Schreiner</tspan></text>
+    <text
+       x="152"
+       y="1844"
+       text-anchor="end"
+       class="time"
+       id="text55">5:30</text>
+    <text
+       x="170"
+       y="1844"
+       class="slot"
+       id="text56">Close out day 1</text>
+    <text
+       x="916"
+       y="654"
+       class="dayhead"
+       id="text57">Day 2 · Tuesday, July 14</text>
+    <rect
+       x="916"
+       y="676"
+       width="730"
+       height="4"
+       rx="2"
+       fill="url(#accent)"
+       id="rect57" />
+    <text
+       x="986"
+       y="738"
+       text-anchor="end"
+       class="time"
+       id="text58">8:00</text>
+    <text
+       x="1004"
+       y="738"
+       class="slot"
+       id="text59">Breakfast</text>
+    <text
+       x="986"
+       y="804"
+       text-anchor="end"
+       class="time"
+       id="text60">9:00</text>
+    <text
+       x="1004"
+       y="804"
+       class="slot"
+       id="text61">Welcome to day 2<tspan
+   class="name"
+   dx="10"
+   id="tspan60">— Henry Schreiner</tspan></text>
+    <text
+       x="986"
+       y="870"
+       text-anchor="end"
+       class="time"
+       id="text62">9:10</text>
+    <text
+       x="1004"
+       y="870"
+       class="slot"
+       id="text63">Deeper dive into scikit-build-core</text>
+    <text
+       x="1030"
+       y="916"
+       class="sess"
+       id="text64">Customizing the SDist and wheel</text>
+    <text
+       x="1030"
+       y="955"
+       class="sess"
+       id="text65">Stable ABI</text>
+    <text
+       x="1030"
+       y="994"
+       class="sess"
+       id="text66">Dynamic metadata<tspan
+   class="name"
+   dx="10"
+   id="tspan65">— Cristian Le</tspan></text>
+    <text
+       x="1030"
+       y="1033"
+       class="sess"
+       id="text67">Editable installs<tspan
+   class="name"
+   dx="10"
+   id="tspan66">— Cristian Le</tspan></text>
+    <text
+       x="1030"
+       y="1072"
+       class="sess"
+       id="text68">The override system<tspan
+   class="name"
+   dx="10"
+   id="tspan67">— Cristian Le</tspan></text>
+    <text
+       x="1030"
+       y="1111"
+       class="sess"
+       id="text69">Coffee break</text>
+    <text
+       x="986"
+       y="1177"
+       text-anchor="end"
+       class="time"
+       id="text70">11:00</text>
+    <text
+       x="1004"
+       y="1177"
+       class="slot"
+       id="text71">Other tools (1)</text>
+    <text
+       x="1030"
+       y="1223"
+       class="sess"
+       id="text72">Using scikit-build-core as a plugin<tspan
+   class="name"
+   dx="10"
+   id="tspan71">— Henry Schreiner</tspan></text>
+    <text
+       x="1030"
+       y="1262"
+       class="sess"
+       id="text73">Using pixi-build<tspan
+   class="name"
+   dx="10"
+   id="tspan72">— Matthew Feickert</tspan></text>
+    <text
+       x="1030"
+       y="1301"
+       class="sess"
+       id="text74">Shipping to conda-forge<tspan
+   class="name"
+   dx="10"
+   id="tspan73">— Matthew Feickert</tspan></text>
+    <text
+       x="986"
+       y="1367"
+       text-anchor="end"
+       class="time"
+       id="text75">12:00</text>
+    <text
+       x="1004"
+       y="1367"
+       class="slot"
+       id="text76">Lunch</text>
+    <text
+       x="986"
+       y="1433"
+       text-anchor="end"
+       class="time"
+       id="text77">1:30</text>
+    <text
+       x="1004"
+       y="1433"
+       class="slot"
+       id="text78">Other tools (2)</text>
+    <text
+       x="1030"
+       y="1479"
+       class="sess"
+       id="text79">Shipping to distros<tspan
+   class="name"
+   dx="10"
+   id="tspan78">— Cristian Le</tspan></text>
+    <text
+       x="986"
+       y="1545"
+       text-anchor="end"
+       class="time"
+       id="text80">1:45</text>
+    <text
+       x="1004"
+       y="1545"
+       class="slot"
+       id="text81">Interesting topics</text>
+    <text
+       x="1030"
+       y="1591"
+       class="sess"
+       id="text82">Agentic AI in scikit-build-core's development</text>
+    <text
+       x="1054"
+       y="1626"
+       class="name"
+       id="text83">— Henry Schreiner</text>
+    <text
+       x="1030"
+       y="1665"
+       class="sess"
+       id="text84">Solvers (universal, time limits)</text>
+    <text
+       x="986"
+       y="1731"
+       text-anchor="end"
+       class="time"
+       id="text85">2:15</text>
+    <text
+       x="1004"
+       y="1731"
+       class="slot"
+       id="text86">Reimbursement information and survey</text>
+    <text
+       x="986"
+       y="1797"
+       text-anchor="end"
+       class="time"
+       id="text87">2:45</text>
+    <text
+       x="1004"
+       y="1797"
+       class="slot"
+       id="text88">Help with your projects / open hack</text>
+    <text
+       x="986"
+       y="1863"
+       text-anchor="end"
+       class="time"
+       id="text89">5:30</text>
+    <text
+       x="1004"
+       y="1863"
+       class="slot"
+       id="text90">Close out</text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="Footer"
+     id="layer-footer">
+    <rect
+       x="264"
+       y="1940"
+       width="1200"
+       height="4"
+       rx="2"
+       fill="url(#accent)"
+       id="divider-bottom" />
+    <text
+       x="864"
+       y="2022"
+       text-anchor="middle"
+       class="url"
+       id="url">scikit-build.org/SIMPLE-Py</text>
+    <g
+       id="logos"
+       transform="translate(0,0)">
+      <!-- Python logo -->
+      <g
+         id="python-logo"
+         transform="translate(415,2062) scale(0.95)">
+        <path
+           style="fill:url(#pyBlue)"
+           d="m 60.510156,6.3979729 c -4.583653,0.021298 -8.960939,0.4122177 -12.8125,1.09375 C 36.35144,9.4962267 34.291407,13.691825 34.291406,21.429223 v 10.21875 h 26.8125 v 3.40625 h -26.8125 -10.0625 c -7.792459,0 -14.6157592,4.683717 -16.7500002,13.59375 -2.46182,10.212966 -2.5710151,16.586023 0,27.25 1.9059283,7.937852 6.4575432,13.593748 14.2500002,13.59375 h 9.21875 v -12.25 c 0,-8.849902 7.657144,-16.656248 16.75,-16.65625 h 26.78125 c 7.454951,0 13.406253,-6.138164 13.40625,-13.625 v -25.53125 c 0,-7.266339 -6.12998,-12.7247775 -13.40625,-13.9375001 -4.605987,-0.7667253 -9.385097,-1.1150483 -13.96875,-1.09375 z m -14.5,8.2187501 c 2.769547,0 5.03125,2.298646 5.03125,5.125 -2e-6,2.816336 -2.261703,5.09375 -5.03125,5.09375 -2.779476,-1e-6 -5.03125,-2.277415 -5.03125,-5.09375 -1e-6,-2.826353 2.251774,-5.125 5.03125,-5.125 z"
+           id="py-p1" />
+        <path
+           style="fill:url(#pyYellow)"
+           d="m 91.228906,35.054223 v 11.90625 c 0,9.230755 -7.825895,16.999999 -16.75,17 h -26.78125 c -7.335833,0 -13.406249,6.278483 -13.40625,13.625 v 25.531247 c 0,7.26634 6.318588,11.54032 13.40625,13.625 8.487331,2.49561 16.626237,2.94663 26.78125,0 6.750155,-1.95439 13.406253,-5.88761 13.40625,-13.625 V 92.897973 h -26.78125 v -3.40625 h 26.78125 13.406254 c 7.79246,0 10.69625,-5.435408 13.40624,-13.59375 2.79933,-8.398886 2.68022,-16.475776 0,-27.25 -1.92578,-7.757441 -5.60387,-13.59375 -13.40624,-13.59375 z m -15.0625,64.65625 c 2.779478,3e-6 5.03125,2.277417 5.03125,5.093747 -2e-6,2.82635 -2.251775,5.125 -5.03125,5.125 -2.76955,0 -5.03125,-2.29865 -5.03125,-5.125 2e-6,-2.81633 2.261697,-5.093747 5.03125,-5.093747 z"
+           id="py-p2" />
+      </g>
+      <!-- scikit-build wordmark -->
+      <g
+         id="skb-logo"
+         transform="translate(585,2075) scale(0.52) translate(-16,-48)">
+        <g
+           id="skb-text">
+          <path
+             class="st0"
+             d="m 339,108.9 c -6.5,0 -11.3,2.2 -11.3,7.7 0,14.3 41.2,6.5 41,34.6 0,15.9 -14.1,23 -29.7,23 -11.3,0 -23.4,-3.8 -31.1,-10.8 l 6,-11.9 c 6.7,6 17.5,9.6 25.9,9.6 7.1,0 12.7,-2.5 12.7,-8.3 0,-15.9 -40.7,-7 -40.6,-34.9 0,-15.7 13.7,-22.4 28.5,-22.4 9.7,0 20.1,2.9 27.1,7.9 l -6.1,12.4 c -6.9,-4.3 -15.5,-6.9 -22.4,-6.9 z"
+             id="skb-s" />
+          <path
+             class="st0"
+             d="m 418,110.4 c -13.4,0 -23,10 -23,24.7 0,14.7 9.6,24.7 23,24.7 9.7,0 17.6,-3.2 22.8,-9.3 l 9.3,9.3 c -7,9.2 -18.2,14.4 -32.9,14.4 -23,0 -39,-15.9 -39,-39.1 0,-23.4 16,-39.4 39,-39.4 14,0 24.9,4.5 32,12.7 l -9.2,10.8 c -5.3,-5.6 -12.7,-9 -22,-8.8 z"
+             id="skb-c" />
+          <path
+             class="st0"
+             d="m 484.2,96.3 v 77.4 H 467.6 V 96.3 Z"
+             id="skb-i1" />
+          <path
+             class="st0"
+             d="M 539.4,138.1 526.3,152 v 21.7 h -16.7 v -108 h 16.7 v 65.2 l 34.2,-34.6 h 19.2 l -28.7,30 30.8,47.4 H 562 Z"
+             id="skb-k" />
+          <path
+             class="st0"
+             d="m 612,96.3 v 77.4 H 595.4 V 96.3 Z"
+             id="skb-i2" />
+          <path
+             class="st0"
+             d="m 825.9,135.2 c 0,23.1 -14.5,39 -36.7,39 -12.4,0 -21.7,-4.9 -27.3,-14 v 13.4 H 745.2 V 65.7 h 16.7 v 43.9 c 5.7,-9 15,-14 27.1,-14 22,0.1 36.9,16.1 36.9,39.6 z m -16.8,-0.5 c 0,-14.4 -9.7,-25 -23.6,-25 -13.8,0 -23.6,10.5 -23.6,25 0,15 9.7,25.3 23.6,25.3 13.8,0 23.6,-10.5 23.6,-25.3 z"
+             id="skb-b" />
+          <path
+             class="st0"
+             d="m 913.6,96.3 v 77.4 h -16.7 v -15.1 c -5.2,10.8 -15,15.6 -27.6,15.7 -17.7,0 -28.4,-11.3 -28.4,-29.8 V 96.3 h 16.7 v 43.5 c 0,11.6 6.8,18.8 18,18.8 13.4,-0.3 21.2,-10.6 21.2,-24.1 V 96.3 Z"
+             id="skb-u" />
+          <path
+             class="st0"
+             d="m 954.9,96.3 v 77.4 H 938.3 V 96.3 Z"
+             id="skb-i3" />
+          <path
+             class="st0"
+             d="m 1002,159.1 c 2.3,0 4.8,-0.9 7.7,-2.5 l 2.3,13.7 c -4.9,2.8 -9.9,4.1 -14.5,4.1 -10.8,0 -19.2,-7.7 -19.2,-22.5 V 65.7 h 16.6 v 84.4 c 0,6.2 2.8,9 7.1,9 z"
+             id="skb-l" />
+          <path
+             class="st0"
+             d="m 1098.3,65.7 v 107.9 h -16.7 v -13.2 c -5.5,9 -14.8,14 -27.2,14 -22.3,0 -37.1,-16.1 -37.1,-39.7 0,-23.3 15,-39.1 36.8,-39.1 12.5,0 21.8,5.1 27.5,14.1 v -44 z m -16.7,69.5 c 0,-15 -9.7,-25.5 -23.7,-25.5 -14,0 -23.7,10.6 -23.9,25.5 0.1,14.7 9.7,25.2 23.9,25.2 14,0 23.7,-10.5 23.7,-25.2 z"
+             id="skb-d" />
+          <polygon
+             class="st1"
+             points="476.6,74.8 460,74.8 467.6,87.9 484.2,87.9"
+             id="skb-dot1" />
+          <polygon
+             class="st1"
+             points="604.4,74.8 587.9,74.8 595.4,87.9 612,87.9"
+             id="skb-dot2" />
+          <polygon
+             class="st1"
+             points="947.4,74.8 930.8,74.8 938.3,87.9 954.9,87.9"
+             id="skb-dot3" />
+          <polygon
+             class="st1"
+             points="726.8,126.3 676.9,126.3 684.5,139.4 734.4,139.4"
+             id="skb-dash" />
+          <path
+             class="st0"
+             d="m 660,159.2 c -5.5,0 -8.6,-3.9 -8.6,-13.1 v -34.5 h 22.5 L 666.7,99.1 H 651.5 V 77.9 H 634.9 V 149 c 0,16.9 9.9,25.3 22.1,25.3 5.4,0 11.3,-1.7 17,-4.8 l -6.8,-11.8 c -2.8,1.1 -5.2,1.5 -7.2,1.5 z"
+             id="skb-t" />
+        </g>
+        <g
+           id="skb-mark">
+          <polygon
+             class="st0"
+             points="149.3,214.8 205,214.8 262.7,131.7 205,48.7 149.3,48.7 91.6,131.7"
+             id="skb-m1" />
+          <polygon
+             class="st1"
+             points="74.3,214.8 129,214.8 71.3,131.7 129,48.7 74.3,48.7 16.6,131.7"
+             id="skb-m2" />
+          <polygon
+             class="st2"
+             points="147.9,214.8 202.6,214.8 144.9,131.7 202.6,48.7 147.9,48.7 90.2,131.7"
+             id="skb-m3" />
+          <path
+             class="st3"
+             d="m 203.3,216 h -54 c -0.4,0 -0.8,-0.2 -1,-0.5 L 90.6,132.4 c -0.3,-0.4 -0.3,-1 0,-1.4 l 57.7,-83 c 0.2,-0.3 0.6,-0.5 1,-0.5 h 54 c 0.5,0 0.9,0.3 1.1,0.7 0.2,0.4 0.2,0.9 -0.1,1.3 l -57.2,82.4 57.2,82.4 c 0.3,0.4 0.3,0.9 0.1,1.3 -0.3,0.2 -0.7,0.4 -1.1,0.4 z m -53.4,-2.4 h 51 l -56.4,-81.2 c -0.3,-0.4 -0.3,-1 0,-1.4 l 56.4,-81.2 h -51 l -56.8,81.9 z"
+             id="skb-m4" />
+          <path
+             class="st3"
+             d="m 129.6,216 h -54 c -0.4,0 -0.8,-0.2 -1,-0.5 L 17,132.4 c -0.3,-0.4 -0.3,-1 0,-1.4 L 74.7,48 c 0.2,-0.3 0.6,-0.5 1,-0.5 h 54 c 0.5,0 0.9,0.3 1.1,0.7 0.2,0.4 0.2,0.9 -0.1,1.3 l -57.2,82.4 57.2,82.4 c 0.3,0.4 0.3,0.9 0.1,1.3 -0.3,0.2 -0.7,0.4 -1.2,0.4 z m -53.3,-2.4 h 51 L 70.9,132.4 c -0.3,-0.4 -0.3,-1 0,-1.4 l 56.4,-81.2 h -51 l -56.8,81.9 z"
+             id="skb-m5" />
+          <path
+             class="st3"
+             d="m 204.5,216 h -54 c -0.7,0 -1.2,-0.5 -1.2,-1.2 0,-0.7 0.5,-1.2 1.2,-1.2 h 53.3 l 56.8,-81.9 -56.8,-81.9 h -53.3 c -0.7,0 -1.2,-0.5 -1.2,-1.2 0,-0.7 0.5,-1.2 1.2,-1.2 h 54 c 0.4,0 0.8,0.2 1,0.5 l 57.7,83.1 c 0.3,0.4 0.3,1 0,1.4 l -57.7,83.1 c -0.3,0.4 -0.6,0.5 -1,0.5 z"
+             id="skb-m6" />
+          <path
+             class="st3"
+             d="M 72,133 H 18 c -0.7,0 -1.2,-0.5 -1.2,-1.2 0,-0.7 0.5,-1.2 1.2,-1.2 h 54 c 0.7,0 1.2,0.5 1.2,1.2 0,0.6 -0.6,1.2 -1.2,1.2 z"
+             id="skb-m7" />
+          <path
+             class="st3"
+             d="m 145.6,133 h -54 c -0.7,0 -1.2,-0.5 -1.2,-1.2 0,-0.7 0.5,-1.2 1.2,-1.2 h 54 c 0.7,0 1.2,0.5 1.2,1.2 0,0.6 -0.6,1.2 -1.2,1.2 z"
+             id="skb-m8" />
+          <path
+             class="st3"
+             d="m 175,174.7 c -0.2,0 -0.5,-0.1 -0.7,-0.2 -0.6,-0.4 -0.7,-1.2 -0.3,-1.7 l 57.7,-83.1 c 0.4,-0.6 1.2,-0.7 1.7,-0.3 0.6,0.4 0.7,1.2 0.3,1.7 L 176,174.2 c -0.2,0.3 -0.6,0.5 -1,0.5 z"
+             id="skb-m9" />
+          <path
+             class="st3"
+             d="M 100.7,174.7 H 47.4 c -0.7,0 -1.2,-0.5 -1.2,-1.2 0,-0.7 0.5,-1.2 1.2,-1.2 h 53.3 c 0.7,0 1.2,0.5 1.2,1.2 0,0.7 -0.5,1.2 -1.2,1.2 z"
+             id="skb-m10" />
+          <path
+             class="st3"
+             d="M 102.3,88.8 H 49 c -0.7,0 -1.2,-0.5 -1.2,-1.2 0,-0.7 0.5,-1.2 1.2,-1.2 h 53.3 c 0.7,0 1.2,0.5 1.2,1.2 0,0.6 -0.5,1.2 -1.2,1.2 z"
+             id="skb-m11" />
+          <path
+             class="st3"
+             d="M 174.3,174.7 H 121 c -0.7,0 -1.2,-0.5 -1.2,-1.2 0,-0.7 0.5,-1.2 1.2,-1.2 h 53.3 c 0.7,0 1.2,0.5 1.2,1.2 0,0.7 -0.5,1.2 -1.2,1.2 z"
+             id="skb-m12" />
+          <path
+             class="st3"
+             d="m 175.9,88.8 h -53.3 c -0.7,0 -1.2,-0.5 -1.2,-1.2 0,-0.7 0.5,-1.2 1.2,-1.2 h 53.3 c 0.7,0 1.2,0.5 1.2,1.2 0,0.6 -0.5,1.2 -1.2,1.2 z"
+             id="skb-m13" />
+          <path
+             class="st3"
+             d="m 235.2,172.2 c -0.4,0 -0.8,-0.2 -1,-0.5 L 176.5,88.6 c -0.4,-0.6 -0.2,-1.3 0.3,-1.7 0.6,-0.4 1.3,-0.3 1.7,0.3 l 57.7,83.1 c 0.4,0.6 0.2,1.3 -0.3,1.7 -0.3,0.2 -0.5,0.2 -0.7,0.2 z"
+             id="skb-m14" />
+        </g>
+      </g>
+      <!-- CMake logo -->
+      <g
+         id="cmake-logo"
+         transform="translate(1200,2062) scale(0.21)">
+        <polygon
+           class="cls-3"
+           points="281.78,8.92 320.88,443.12 545.53,533.66"
+           id="cmake-red" />
+        <polygon
+           class="cls-1"
+           points="169.87,402.85 1.47,545.87 524.85,545.87"
+           id="cmake-green" />
+        <polygon
+           class="cls-2"
+           points="0,522.35 287.75,277.81 262.72,0"
+           id="cmake-blue" />
+        <polygon
+           class="cls-4"
+           points="185.74,388.49 303.03,435.65 290.92,299.25"
+           id="cmake-gray" />
+      </g>
+    </g>
+    <text
+       x="864"
+       y="2256"
+       text-anchor="middle"
+       class="note"
+       id="note">An NSF-funded workshop · OAC-2209877</text>
+  </g>
+</svg>

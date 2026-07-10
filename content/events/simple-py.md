@@ -202,8 +202,26 @@ three PEP authors will be at the workshop.
 This workshop takes place July 13-14 alongside the [SciPy
 2026](https://www.scipy2026.scipy.org) tutorials at the University of Minnesota,
 Minneapolis, MN. We'll be in the
-[Health Sciences Education Center](https://share.google/6TnOM6VE7qavktJdA "520 Delaware St SE, Minneapolis, MN 55454"),
+[Health Sciences Education Center](https://share.google/6TnOM6VE7qavktJdA "526 Delaware St SE, Minneapolis, MN 55455"),
 [HSEC 2-101A/B](https://healthclassrooms.umn.edu/classrooms/hsec-2-101ab).
+
+## Getting here
+
+We share the tutorials venue with [SciPy 2026](https://www.scipy2026.scipy.org/#gettinghere).
+
+From **MSP International Airport**, take the Blue Line Replacement Bus Service to
+Cedar Ave S & 3rd St S, near West Bank Station. From there you can catch the
+[Metro Green Line](https://www.metrotransit.org/route/green) one stop to East
+Bank, within walking distance of the venue and hotel. On weekdays, the
+[free UMN Campus Connector buses](https://pts.umn.edu/transit/campus/campus-connector-121)
+run across the river, and a pedestrian bridge on Washington Avenue connects West
+Bank and East Bank on foot.
+
+The [Graduate by Hilton Minneapolis](https://book.passkey.com/e/51116017) (615
+Washington Ave SE) is a short walk from the venue; see the room block details
+below.
+
+## Reimbursement and lodging
 
 We can provide airfare and lodging reimbursement during the workshop days (and
 the night before, so July 12, 13, and 14) for participants. If you'd like to go

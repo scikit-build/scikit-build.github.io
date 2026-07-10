@@ -1,0 +1,3 @@
+# Hugo template: nested quotes in `{{ "favicon.svg" | absURL }}` are valid Go
+# templating but not parseable as HTML by prettier.
+layouts/partials/extend_head.html

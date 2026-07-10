@@ -1,0 +1,83 @@
+/* ── Page decorations: glow + floating code field ────────────────────────
+   Visual language borrowed from static/images/simplepy-poster.svg:
+   an oval #4DA3FF glow behind the title and faded monospace snippets
+   filling the background. page-fx.js adds scroll parallax (with vertical
+   wrap-around); cards get a glassy backdrop blur so the code shows
+   through frosted. */
+
+:root {
+  --fx-code: rgba(48, 105, 152, 0.22);
+}
+
+/* Current PaperMod marks dark mode with data-theme on <html>; older
+   versions used a .dark class on <body>. Support both. */
+.dark,
+:root[data-theme="dark"] {
+  --page-glow: rgba(77, 163, 255, 0.23);
+  --fx-code: rgba(148, 196, 255, 0.32);
+}
+
+/* The hero glow is wider than narrow viewports — clip instead of
+   growing a horizontal scrollbar */
+body {
+  overflow-x: clip;
+}
+
+.home-hero {
+  position: relative;
+}
+
+/* Oval glow centered on the hero description; dark mode only — it doesn't
+   read on a light background */
+.dark .home-hero::before,
+:root[data-theme="dark"] .home-hero::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  top: -25%;
+  width: min(1300px, 110vw);
+  height: 160%;
+  transform: translateX(-50%);
+  background: radial-gradient(closest-side, var(--page-glow), transparent 80%);
+  pointer-events: none;
+}
+
+/* Fixed full-viewport layer; page-fx.js fills it with code snippets and
+   sets each one's position, font-size, opacity, and blur from its depth */
+.page-fx {
+  position: fixed;
+  z-index: -1;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+@media (min-width: 1100px) {
+  .home-hero {
+    padding-top: 3rem;
+    padding-bottom: 3.25rem;
+  }
+}
+
+.fx-code {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  line-height: 1.6;
+  color: var(--fx-code);
+  white-space: pre;
+  user-select: none;
+  will-change: transform;
+}
+
+/* ── Glassy tiles so the code field shows through frosted ───────────────── */
+.project-card,
+.event-card {
+  background: color-mix(in srgb, var(--entry) 35%, transparent);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+}

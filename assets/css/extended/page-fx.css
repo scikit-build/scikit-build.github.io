@@ -81,7 +81,8 @@ body {
 
 /* ── Glassy tiles so the code field shows through frosted ───────────────── */
 .project-card,
-.event-card {
+.event-card,
+.home-btn {
   background: color-mix(in srgb, var(--entry) 35%, transparent);
   backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(3px);

@@ -6,7 +6,7 @@
    through frosted. */
 
 :root {
-  --fx-code: rgba(48, 105, 152, 0.22);
+  --fx-code: rgba(48, 105, 152, 0.26);
 }
 
 /* Current PaperMod marks dark mode with data-theme on <html>; older
@@ -83,7 +83,7 @@ body {
 .project-card,
 .event-card,
 .home-btn {
-  background: color-mix(in srgb, var(--entry) 35%, transparent);
+  background: color-mix(in srgb, var(--entry) 25%, transparent);
   backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(3px);
 }

@@ -28,12 +28,13 @@
   }
 
   const SNIPPETS = [
-    "cmake_minimum_required(VERSION 3.15...4.3)\nproject(${SKBUILD_PROJECT_NAME} LANGUAGES C)",
+    "cmake_minimum_required(VERSION 3.15...4.4)\nproject(${SKBUILD_PROJECT_NAME} LANGUAGES C)",
     "example-project\n├── src/example/_core.c\n├── pyproject.toml\n└── CMakeLists.txt",
     "find_package(Python REQUIRED\n  COMPONENTS Interpreter Development.Module)",
     'PYBIND11_MODULE(_core, m) {\n    m.def("add", &add);\n}',
-    "$ pip install scikit-build-core",
-    "$ python -m build",
+    "$ uv pip install scikit-build-core",
+    "$ pipx build",
+    "$ uv build",
     "install(TARGETS _core DESTINATION example)",
     "python_add_library(_core MODULE _core.c WITH_SOABI)",
     '[tool.scikit-build]\nbuild.verbose = true\nlogging.level = "INFO"',

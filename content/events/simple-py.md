@@ -206,7 +206,7 @@ attendees:
     affiliation: "Princeton University"
   - name: "Mike Germinger"
     affiliation: "University of Minnesota Duluth"
-  - name: "Bradely Dice"
+  - name: "Bradley Dice"
     affiliation: "NVIDIA"
   - name: "Jeremy Tanner"
     affiliation: "NVIDIA"

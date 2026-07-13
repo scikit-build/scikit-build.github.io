@@ -71,6 +71,7 @@ schedule:
                 slides: "https://scikit-build.org/SIMPLE-Py/slides/2_02_binding"
               - title: "Maturin, PyO3, and Rust"
                 name: "Matt McCormick"
+                format: "hands-on"
                 duration: "30 mins"
                 link: "https://scikit-build.org/SIMPLE-Py/rust"
                 slides: "https://scikit-build.org/SIMPLE-Py/slides/2_03_rust"

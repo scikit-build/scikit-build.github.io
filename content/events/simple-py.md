@@ -204,6 +204,7 @@ attendees:
   - name: "Lundy Bernard"
   - name: "Maryam Hosseini"
   - name: "Matt McCormick"
+    affiliation: "Fideus Labs"
   - name: "Matthew Feickert"
     affiliation: "University of Wisconsin-Madison"
   - name: "Yaping Yang"

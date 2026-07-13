@@ -26,6 +26,8 @@ schedule:
           - title: "Uv vs. Pixi: a showdown"
             name: "Henry Schreiner vs. Matthew Feickert"
             duration: "20 mins"
+            link: "https://scikit-build.org/SIMPLE-Py/tooling"
+            slides: "https://scikit-build.org/SIMPLE-Py/slides/1_02_tooling"
           - title: "Making a basic package"
             name: "CAM Gerlach"
             duration: "1 hour"

@@ -151,6 +151,7 @@ schedule:
             duration: "15 mins"
             name: "Matthew Feickert"
             link: "https://scikit-build.org/SIMPLE-Py/pixi-build"
+            slides: "https://scikit-build.org/SIMPLE-Py/slides/5_02_pixi_build"
           - title: "Shipping to conda-forge"
             duration: "15 mins"
             name: "Matthew Feickert"

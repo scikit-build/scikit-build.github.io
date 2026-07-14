@@ -107,6 +107,7 @@ schedule:
       - time: "9:00"
         title: "Welcome to day 2"
         duration: "10 mins"
+        link: "https://scikit-build.org/SIMPLE-Py/slides/0_02_intro"
         name: "Henry Schreiner"
       - time: "9:10"
         title: "Deeper dive into scikit-build-core"

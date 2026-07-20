@@ -94,5 +94,4 @@ body {
 .home-btn {
   background: color-mix(in srgb, var(--entry) 25%, transparent);
   backdrop-filter: blur(3px);
-  -webkit-backdrop-filter: blur(3px);
 }

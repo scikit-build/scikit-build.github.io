@@ -62,9 +62,3 @@
     documentation support for CMake commands, variables, and modules.
   github: https://github.com/scikit-build/moderncmakedomain
   pypi: https://pypi.org/project/sphinxcontrib-moderncmakedomain/
-
-- name: scikit-build-sample-projects
-  description: >-
-    Sample projects demonstrating how to use scikit-build and scikit-build-core
-    to build Python extensions with CMake across a range of use cases.
-  github: https://github.com/scikit-build/scikit-build-sample-projects

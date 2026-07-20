@@ -1,5 +1,5 @@
 ---
-title: "SIMPLE-Py"
+title: "SIMPLE-Py 2026"
 description: "Scientific Installation & Modern Packaging for Language Extensions in Python"
 banner: "/images/simplepy.svg"
 date: 2026-07-13

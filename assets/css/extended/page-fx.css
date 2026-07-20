@@ -52,6 +52,22 @@ body {
   pointer-events: none;
 }
 
+/* Softly-feathered backdrop blur behind the hero text, both themes; the
+   mask fades the blur toward the edges rather than a hard rectangle */
+.home-hero::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  top: -25%;
+  width: min(1300px, 110vw);
+  height: 160%;
+  transform: translateX(-50%);
+  pointer-events: none;
+  mask: radial-gradient(closest-side, #000 10%, transparent 80%);
+  backdrop-filter: blur(3px);
+}
+
 /* Fixed full-viewport layer; page-fx.js fills it with code snippets and
    sets each one's position, font-size, opacity, and blur from its depth.
    100lvh keeps the layer size stable when the mobile URL bar collapses. */

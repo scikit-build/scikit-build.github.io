@@ -282,16 +282,18 @@
 }
 
 /* ── NSF footer ──────────────────────────────────────────────────────────── */
+/* Full-width glassy strip; the text inside stays at main width */
 .nsf-footer {
   border-top: 1px solid var(--border);
   padding: 1.25rem var(--gap);
-  max-width: calc(var(--main-width) + var(--gap) * 2);
-  margin: 0 auto;
+  background: color-mix(in srgb, var(--entry) 25%, transparent);
+  backdrop-filter: blur(3px);
 }
 
 .nsf-footer p {
+  max-width: var(--main-width);
+  margin: 0 auto;
   font-size: 0.8rem;
   color: var(--secondary);
   line-height: 1.6;
-  margin: 0;
 }

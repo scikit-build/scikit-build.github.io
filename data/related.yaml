@@ -1,0 +1,47 @@
+- name: pybind11
+  description: Seamless operability between C++11 and Python.
+  url: https://github.com/pybind/pybind11
+
+- name: nanobind
+  description: Tiny and efficient C++/Python bindings.
+  url: https://github.com/wjakob/nanobind
+
+- name: cibuildwheel
+  description: Build Python wheels for all platforms on CI.
+  url: https://github.com/pypa/cibuildwheel
+
+- name: build
+  description: A simple, correct PEP 517 build frontend.
+  url: https://github.com/pypa/build
+
+- name: uv
+  description: An extremely fast Python package and project manager.
+  url: https://github.com/astral-sh/uv
+
+- name: packaging
+  description: Core utilities for Python packaging.
+  url: https://github.com/pypa/packaging
+
+- name: pyproject-metadata
+  description: Parse and validate PEP 621 project metadata.
+  url: https://github.com/pypa/pyproject-metadata
+
+- name: validate-pyproject
+  description: Validate pyproject.toml files against their schemas.
+  url: https://github.com/abravalheri/validate-pyproject
+
+- name: check-sdist
+  description: Check that an SDist matches the files in Git.
+  url: https://github.com/henryiii/check-sdist
+
+- name: repo-review
+  description: Framework that runs checks on repositories.
+  url: https://github.com/scientific-python/repo-review
+
+- name: flake8-lazy
+  description: Find modules that can be lazy imported in Python 3.15+.
+  url: https://github.com/henryiii/flake8-lazy
+
+- name: Scientific Python Development Guide
+  description: Recommendations for modern Python package development.
+  url: https://learn.scientific-python.org/development/

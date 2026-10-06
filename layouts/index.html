@@ -174,4 +174,23 @@
     {{- end }}
   </div>
 </section>
+
+<section class="related-section" id="related">
+  <h2 class="projects-section-title">Related projects</h2>
+  <ul class="related-list">
+    {{- range hugo.Data.related }}
+    <li>
+      <a
+        class="related-item"
+        href="{{ .url }}"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <span class="related-item-name">{{ .name }}</span>
+        <span class="related-item-description">{{ .description }}</span>
+      </a>
+    </li>
+    {{- end }}
+  </ul>
+</section>
 {{- end }}

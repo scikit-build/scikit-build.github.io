@@ -281,6 +281,56 @@
   box-shadow: 0 2px 12px rgba(255, 255, 255, 0.05);
 }
 
+/* ── Related projects ────────────────────────────────────────────────────── */
+.related-section {
+  margin-bottom: 3rem;
+}
+
+.related-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 0.6rem;
+}
+
+.related-list li {
+  margin: 0;
+}
+
+.related-item {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  gap: 0.1rem;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  text-decoration: none;
+  color: var(--primary);
+  transition:
+    border-color 0.15s,
+    background 0.15s;
+}
+
+.related-item:hover {
+  border-color: var(--primary);
+  background: var(--entry);
+}
+
+.related-item-name {
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.related-item-description {
+  font-size: 0.8rem;
+  color: var(--secondary);
+  line-height: 1.4;
+}
+
 /* ── NSF footer ──────────────────────────────────────────────────────────── */
 /* Full-width glassy strip; the text inside stays at main width */
 .nsf-footer {
